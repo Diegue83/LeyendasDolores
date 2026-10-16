@@ -1,0 +1,11 @@
+{
+    "name": "Leyendas",
+    "rootNamespace": "Leyendas",
+    "references": ["Unity.InputSystem", "UnityEngine.UI"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "autoReferenced": true,
+    "noEngineReferences": false
+}

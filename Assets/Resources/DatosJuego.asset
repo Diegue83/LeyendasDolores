@@ -1,0 +1,949 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90e42c10cf041294f83249a45c3a9c90, type: 3}
+  m_Name: DatosJuego
+  m_EditorClassIdentifier: Assembly-CSharp::Leyendas.DatosJuego
+  version: 9
+  titulo: Leyendas de Dolores Hidalgo
+  subtitulo: El misterio de la campana
+  creditos: "<size=30><b>Leyendas de Dolores Hidalgo</b></size>\n<i>El misterio de la campana</i>\n\n<b>Creado por</b>\nJuan Diego Ju\xE1rez Cruz\nZayda Fernanda Vargas Vargas\n<size=16>Idea, dise\xF1o, historia, acertijos, arte y programaci\xF3n</size>\n\n<b>Universidad Tecnol\xF3gica del Norte de Guanajuato</b>\nIngenier\xEDa en Desarrollo y Gesti\xF3n de Software \xB7 2026\n\n<b>Herramientas</b>\nHecho con Unity. Arte, textos, c\xF3digo y sonidos con ayuda de Claude (Anthropic)\n\n<b>Tipograf\xEDas</b>\nLilita One \xB7 Juan Montoreano (SIL Open Font License)\nAtkinson Hyperlegible \xB7 Braille Institute (SIL Open Font License)\n\n<b>Gracias a</b>\nDolores Hidalgo, Cuna de la Independencia Nacional, Guanajuato"
+  costoPista: 100
+  niveles:
+  - id: n1
+    nombre: "Parroquia de Nuestra Se\xF1ora de los Dolores"
+    pieza: corona
+    nombrePieza: la corona
+    vistaInicial: n1_atrio
+    tiempoPar: 900
+    objetivo: "Alguien se rob\xF3 la campana del Grito. Encuentra la CORONA y busca pistas de El Campanero. La placa del atrio da la primera."
+    cierre: La corona es la parte de arriba de la campana, donde se sujeta al yugo.
+  - id: n2
+    nombre: Plaza Principal
+    pieza: yugo
+    nombrePieza: el yugo
+    vistaInicial: n2_plaza
+    tiempoPar: 1020
+    objetivo: Encuentra el YUGO y sigue el rastro de El Campanero. Don Chuy, el nevero, sabe lo que pasa en la plaza.
+    cierre: El yugo es la viga de madera de la que cuelga la campana.
+  - id: n3
+    nombre: "Mercado Hidalgo \xB7 zona de dulces"
+    pieza: badajo
+    nombrePieza: el badajo
+    vistaInicial: n3_pasillo
+    tiempoPar: 900
+    objetivo: "Encuentra el BADAJO. Do\xF1a Lupita y el alfarero necesitan ayuda... y alguien escondi\xF3 algo en la pi\xF1ata."
+    cierre: "El badajo es el p\xE9ndulo de hierro que golpea la campana por dentro."
+  - id: n4
+    nombre: Casa de Hidalgo
+    pieza: cuerpo
+    nombrePieza: el cuerpo
+    vistaInicial: n4_sala
+    tiempoPar: 780
+    objetivo: "Encuentra el CUERPO de la campana, descubre qui\xE9n es El Campanero y arma la campana en la vitrina de la sala."
+    cierre: "El cuerpo es la parte que vibra y suena. El caso de la campana robada est\xE1 resuelto."
+  vistas:
+  - id: n1_atrio
+    nombre: Atrio de la Parroquia
+    padre: 
+  - id: n1_sacristia
+    nombre: "Sacrist\xEDa"
+    padre: n1_atrio
+  - id: n1_nave
+    nombre: Nave de la Parroquia
+    padre: n1_atrio
+  - id: n1_torre
+    nombre: Base de la torre
+    padre: n1_atrio
+  - id: n1_campanario
+    nombre: Campanario
+    padre: n1_torre
+  - id: n2_plaza
+    nombre: Plaza Principal
+    padre: 
+  - id: n2_kiosko
+    nombre: Dentro del kiosko
+    padre: n2_plaza
+  - id: n2_neveria
+    nombre: "Never\xEDa"
+    padre: n2_plaza
+  - id: n2_estatua
+    nombre: Base de la estatua
+    padre: n2_plaza
+  - id: n3_pasillo
+    nombre: Pasillo de dulces
+    padre: 
+  - id: n3_talavera
+    nombre: Puesto de talavera
+    padre: n3_pasillo
+  - id: n3_bodega
+    nombre: Bodega
+    padre: n3_pasillo
+  - id: n4_sala
+    nombre: Sala
+    padre: 
+  - id: n4_biblioteca
+    nombre: Biblioteca
+    padre: n4_sala
+  - id: n4_patio
+    nombre: Patio de la morera
+    padre: n4_sala
+  acertijos:
+  - id: candado
+    titulo: Candado romano
+    instrucciones: "El candado pide un D\xCDA y un MES, con dos cifras cada uno. La placa del atrio tiene m\xE1s de una fecha: \xBFcu\xE1l es la del llamado?"
+    tiempoPar: 60
+    respuesta: 1609
+    opciones: []
+    lineas: []
+    pistas:
+    - "En n\xFAmeros romanos, I = 1, V = 5, X = 10. Si un n\xFAmero chico va ANTES de uno grande, se resta."
+    - "El a\xF1o de la fachada no sirve aqu\xED: el candado pide el d\xEDa y el mes en que se llam\xF3 a la libertad."
+    semilla: 7
+  - id: deslizante
+    titulo: "El cuadro de la sacrist\xEDa"
+    instrucciones: "Desliza las piezas hacia el hueco hasta formar la pintura. La imagen de la derecha es la gu\xEDa."
+    tiempoPar: 150
+    respuesta: 
+    opciones: []
+    lineas: []
+    pistas:
+    - 'No intentes acomodar todo a la vez: termina la fila de arriba y no la vuelvas a mover.'
+    - "Las dos \xFAltimas piezas de una fila se colocan juntas: pon una en la esquina, la otra debajo, y g\xEDralas en bloque."
+    semilla: 11
+  - id: anillos
+    titulo: "Los anillos del roset\xF3n"
+    instrucciones: "Deja las tres franjas doradas apuntando hacia arriba. Los anillos est\xE1n engranados en c\xEDrculo: el de afuera arrastra un paso al de en medio, el de en medio arrastra un paso al de adentro en sentido contrario, y el de adentro arrastra DOS pasos al de afuera."
+    tiempoPar: 120
+    respuesta: 
+    opciones: []
+    lineas:
+    - 8
+    - 1,-1,2
+    pistas:
+    - "Ning\xFAn anillo se mueve solo. Antes de girar, cuenta cu\xE1ntos pasos le faltan a cada franja."
+    - "Busca combinaciones: si giras un anillo hacia un lado y su vecino hacia el otro, \xBFqu\xE9 anillos quedan igual?"
+    semilla: 5
+  - id: candelabro
+    titulo: El candelabro de nueve velas
+    instrucciones: "Tu vela solo alcanza para prender UNA vela. Las dem\xE1s se prenden con la \xFAltima que encendiste, y solo si un brazo de bronce las une. Enciende las nueve en un solo recorrido."
+    tiempoPar: 90
+    respuesta: 
+    opciones: []
+    lineas:
+    - 0-4,1-2,1-5,3-4,3-6,4-6,4-7,4-8,5-8,6-7,7-8
+    pistas:
+    - "Una vela con un solo brazo solo puede ser la primera o la \xFAltima en encenderse."
+    - 'Una vela con dos brazos recibe la flama por uno y la pasa por el otro: los dos brazos se usan.'
+    semilla: 3
+  - id: campanas
+    titulo: El llamado de las campanas
+    instrucciones: "La partitura del campanero dice c\xF3mo sonaban las campanas. Prueba cada campana y, cuando est\xE9s lista, toca la melod\xEDa de izquierda a derecha."
+    tiempoPar: 90
+    respuesta: 
+    opciones: []
+    lineas:
+    - 1,0,2,2,1,0,1,2
+    pistas:
+    - En la partitura, las notas de arriba son agudas y las de abajo, graves.
+    - "El tama\xF1o de una campana cambia su sonido: escucha bien a la grande y a la chica."
+    semilla: 9
+  - id: nieves
+    titulo: Las nieves de Don Chuy
+    instrucciones: "Pon un sabor en cada vaso siguiendo las pistas de Don Chuy. Toca un vaso para cambiar su sabor y luego \xABServir\xBB."
+    tiempoPar: 150
+    respuesta: 0,1,2,3,4
+    opciones:
+    - Aguacate
+    - Mole
+    - "Chicharr\xF3n"
+    - Tequila
+    - "Camar\xF3n"
+    lineas:
+    - "La de camar\xF3n est\xE1 en un extremo."
+    - "La de chicharr\xF3n est\xE1 justo a la derecha de la de mole."
+    - "La de tequila est\xE1 junto a la de camar\xF3n."
+    - "La de aguacate no est\xE1 junto a la de tequila."
+    - "La de aguacate est\xE1 m\xE1s a la izquierda que la de camar\xF3n."
+    pistas:
+    - "Empieza por las pistas que hablan de extremos y de \xABm\xE1s a la izquierda\xBB: juntas fijan un sabor."
+    - "Cuando dos sabores van juntos (\xABjusto a la derecha\xBB), b\xFAscales un hueco de dos vasos seguidos."
+    semilla: 7
+  - id: nonograma
+    titulo: El papel picado
+    instrucciones: "Recorta las casillas. Los n\xFAmeros dicen cu\xE1ntas casillas seguidas van recortadas en cada fila y en cada columna, en ese orden; entre dos grupos hay al menos una sin recortar."
+    tiempoPar: 180
+    respuesta: 
+    opciones: []
+    lineas:
+    - ..###..
+    - .##.##.
+    - .#...#.
+    - .#...#.
+    - '##...##'
+    - '#######'
+    - ...#...
+    pistas:
+    - "Empieza por el n\xFAmero m\xE1s grande: si un grupo ocupa casi toda la fila, las casillas del centro van recortadas s\xED o s\xED."
+    - Cuando una fila ya tiene todos sus grupos, las casillas que faltan van sin recortar. Usa eso para las columnas.
+    semilla: 7
+  - id: jarras
+    titulo: Agua de jamaica
+    instrucciones: Deja 4 litros en la jarra de 8 y 4 litros en la de 5. Toca una jarra y luego otra para vaciar de la primera a la segunda.
+    tiempoPar: 120
+    respuesta: 
+    opciones: []
+    lineas:
+    - 8,5,3
+    - 8,0,0
+    - 4,4,-1
+    pistas:
+    - "No se puede medir \xABa ojo\xBB: cada vertida termina cuando una jarra se vac\xEDa o la otra se llena."
+    - "F\xEDjate en lo que SOBRA cuando una jarra llena se vac\xEDa en otra m\xE1s chica."
+    semilla: 7
+  - id: cronologia
+    titulo: Septiembre de 1810
+    instrucciones: "Ordena los hechos: el primero arriba y el \xFAltimo abajo. Toca dos tarjetas para cambiarlas de lugar y luego \xABComprobar\xBB."
+    tiempoPar: 90
+    respuesta: 
+    opciones: []
+    lineas:
+    - "Josefa Ortiz de Dom\xEDnguez manda avisar que la conspiraci\xF3n fue descubierta."
+    - Juan Aldama llega a Dolores con la noticia.
+    - "Hidalgo, Allende y Aldama deciden no esperar m\xE1s."
+    - Las campanas de la parroquia llaman al pueblo.
+    - "El ej\xE9rcito insurgente sale hacia Atotonilco."
+    pistas:
+    - "Cada hecho es causa del siguiente: nadie puede traer una noticia que todav\xEDa no se ha enviado."
+    - "Las campanas se tocaron para reunir al pueblo; solo despu\xE9s sali\xF3 el ej\xE9rcito."
+    semilla: 4
+  - id: criptex
+    titulo: El criptex
+    instrucciones: Gira los seis anillos para formar la palabra secreta. Las fichas de barro de la plaza tienen sus letras, pero revueltas.
+    tiempoPar: 90
+    respuesta: ALDAMA
+    opciones: []
+    lineas: []
+    pistas:
+    - "Las seis letras forman un apellido que ya le\xEDste hoy en la plaza."
+    - "Piensa en qui\xE9n llev\xF3 la noticia a Dolores."
+    semilla: 7
+  - id: canal
+    titulo: El canal de talavera
+    instrucciones: Toca los azulejos para girarlos y lleva el agua desde la fuente (izquierda) hasta la jarra (derecha).
+    tiempoPar: 120
+    respuesta: 1,2
+    opciones: []
+    lineas:
+    - TLLL
+    - -L|T
+    - L+L-
+    - -T.L
+    pistas:
+    - "Trabaja de los dos lados: desde la fuente hacia adelante y desde la jarra hacia atr\xE1s."
+    - "Un azulejo recto solo tiene dos posiciones \xFAtiles; las curvas, cuatro. Decide primero los rectos."
+    semilla: 4
+  - id: pinata
+    titulo: "\xA1Dale, dale, dale!"
+    instrucciones: "Pega cuando la pi\xF1ata pase por la franja dorada. Con tres golpes se rompe... \xA1pero cada vez va m\xE1s r\xE1pido!"
+    tiempoPar: 40
+    respuesta: 3
+    opciones: []
+    lineas: []
+    pistas:
+    - Mira el ritmo de dos o tres vueltas antes de pegar.
+    semilla: 7
+  - id: balanza
+    titulo: La cocada hueca
+    instrucciones: "Una de las 9 cocadas est\xE1 hueca y pesa menos. Toca una cocada para pasarla al plato izquierdo, al derecho o regresarla. Puedes pesar 2 veces; luego toca \xABElegir\xBB."
+    tiempoPar: 150
+    respuesta: 
+    opciones: []
+    lineas: []
+    pistas:
+    - 'Cada pesada tiene tres resultados posibles. Aprovecha los tres: no pongas todas las cocadas en los platos.'
+    - "Si la balanza se equilibra, la hueca no est\xE1 en ning\xFAn plato."
+    semilla: 13
+  - id: hanoi
+    titulo: Las ollas del abuelo
+    instrucciones: Pasa las cuatro ollas al poste de la derecha. Toca un poste para tomar la olla de arriba y otro para dejarla. Nunca pongas una olla grande sobre una chica.
+    tiempoPar: 150
+    respuesta: 4
+    opciones: []
+    lineas: []
+    pistas:
+    - "Para mover la olla m\xE1s grande, las otras tres tienen que estar juntas en un solo poste."
+    - Mover tres ollas es lo mismo que mover dos, mover la tercera y volver a poner las dos encima.
+    semilla: 7
+  - id: simbolos
+    titulo: "El candado de s\xEDmbolos"
+    instrucciones: "Gira las tres ruedas de la cajita. La tapa tiene grabado: \xABDel d\xEDa a la noche, y de la noche a quien la acompa\xF1a\xBB."
+    tiempoPar: 60
+    respuesta: sol,luna,estrella
+    opciones:
+    - sol
+    - luna
+    - estrella
+    - corazon
+    - flor
+    - gota
+    lineas: []
+    pistas:
+    - Los dibujos que van en el candado son los que aparecieron en el piso de la bodega.
+    - "La frase de la tapa recorre un d\xEDa completo: empieza por la ma\xF1ana."
+    semilla: 7
+  - id: cesar
+    titulo: La carta cifrada
+    instrucciones: Gira la rueda de adentro. Cada letra de la carta (anillo de afuera) se lee en la letra de adentro que queda debajo. Busca la clave con la que el mensaje tiene sentido.
+    tiempoPar: 120
+    respuesta: 4
+    opciones: []
+    lineas:
+    - "LOS LIBROS GUARDAN LA COMBINACION ORDENALOS POR SU A\xD1O"
+    pistas:
+    - "La carta dice cu\xE1nto girar, pero con n\xFAmeros romanos y con una operaci\xF3n."
+    - "Prueba con la primera palabra corta del mensaje: si se lee bien, toda la carta se leer\xE1 bien."
+    semilla: 7
+  - id: libros
+    titulo: Los libros de Hidalgo
+    instrucciones: "Ordena los libros por su a\xF1o, del m\xE1s antiguo (izquierda) al m\xE1s reciente (derecha). Los a\xF1os est\xE1n en n\xFAmeros romanos. Toca dos libros para cambiarlos y luego \xABComprobar\xBB."
+    tiempoPar: 120
+    respuesta: 150918
+    opciones: []
+    lineas:
+    - "MDCCLIII \xB7 Nace en Corralejo"
+    - "MDCCLXV \xB7 Estudia en Valladolid"
+    - "MDCCLXXVIII \xB7 Se ordena sacerdote"
+    - "MDCCXC \xB7 Rector de San Nicol\xE1s"
+    - "MDCCCIII \xB7 Llega a Dolores"
+    - "MDCCCX \xB7 El Grito"
+    pistas:
+    - "Todos empiezan con MDCC (1700): compara lo que viene despu\xE9s."
+    - C = 100, L = 50, X = 10, V = 5, I = 1. Una letra chica antes de una grande se resta.
+    semilla: 8
+  - id: caja
+    titulo: La caja fuerte
+    instrucciones: "Gira el disco y marca tres n\xFAmeros: a la DERECHA, a la IZQUIERDA y otra vez a la DERECHA."
+    tiempoPar: 90
+    respuesta: 15,9,18
+    opciones: []
+    lineas:
+    - 40
+    - 1,-1,1
+    pistas:
+    - "Los seis n\xFAmeros dorados de los libros forman tres n\xFAmeros de dos cifras."
+    - "Cada vez que marcas, el disco debe girar hacia el otro lado para el siguiente n\xFAmero."
+    semilla: 7
+  - id: ruta
+    titulo: La ruta insurgente
+    instrucciones: "Toca los pueblos en el orden en que pas\xF3 el ej\xE9rcito insurgente despu\xE9s del Grito, hasta llegar a la Alh\xF3ndiga. Empieza en Dolores."
+    tiempoPar: 90
+    respuesta: 0,1,2,3,4
+    opciones:
+    - Dolores:150,46
+    - Atotonilco:166,96
+    - San Miguel el Grande:184,128
+    - Celaya:268,182
+    - Guanajuato:70,156
+    - "Quer\xE9taro:296,118"
+    - Valladolid:128,214
+    lineas: []
+    pistas:
+    - "No todos los pueblos del mapa est\xE1n en la ruta: dos son distractores."
+    - "En el primer pueblo tomaron el estandarte de la Virgen de Guadalupe; la campa\xF1a de septiembre termin\xF3 en la Alh\xF3ndiga de Granaditas."
+    semilla: 7
+  - id: caso
+    titulo: "\xBFQui\xE9n es El Campanero?"
+    instrucciones: "Repasa las evidencias. Toca a un sospechoso y luego \xABAcusar\xBB: el culpable tiene que encajar con TODAS las evidencias."
+    tiempoPar: 90
+    respuesta: 2
+    opciones:
+    - "llave:Ten\xEDa llave de la torre: la puerta no estaba forzada."
+    - "pie:Dej\xF3 una huella chica de huarache junto a la estatua."
+    - "azul:Un hilo azul qued\xF3 en la cuerda de la pi\xF1ata."
+    - "zurdo:La carta la escribi\xF3 alguien zurdo."
+    lineas:
+    - "Don Tom\xE1s, el sacrist\xE1n|tomas|llave,pie,azul|Tiene llave de la torre \xB7 Es bajito \xB7 Estola azul \xB7 Enciende las velas con la derecha"
+    - "Don Chuy, el nevero|chuy|llave|Guarda la llave de su abuelo \xB7 Calza del 29 \xB7 Ropa blanca y turquesa"
+    - "Do\xF1a Lupita, la dulcera|lupita|llave,pie,azul,zurdo|Tiene llave (arregla las flores) \xB7 Es bajita \xB7 Rebozo azul \xB7 Acomoda las cocadas con la izquierda"
+    - "Don Ramiro, el alfarero|alfarero|pie,azul|No tiene llave de la torre \xB7 Camisa azul"
+    pistas:
+    - Toma una evidencia a la vez y descarta a quien no encaje con ella.
+    - "El hilo azul no descarta a nadie de los que quedan al final: lo que decide est\xE1 en la carta."
+    semilla: 7
+  - id: final
+    titulo: La campana del Grito
+    instrucciones: 'Arma la campana en el orden correcto: primero lo que la sostiene y al final lo que la hace sonar.'
+    tiempoPar: 45
+    respuesta: 0,1,2,3
+    opciones:
+    - yugo
+    - corona
+    - cuerpo
+    - badajo
+    lineas: []
+    pistas:
+    - "Piensa en c\xF3mo cuelga una campana de verdad: de arriba hacia abajo."
+    - 'Lo que golpea para hacerla sonar va por dentro: no puede ponerse antes que el cuerpo.'
+    semilla: 7
+  objetos:
+  - id: vara
+    nombre: Vara con gancho
+    descripcion: Una vara larga con gancho de metal. Sirve para alcanzar cosas altas.
+  - id: vela
+    nombre: Vela
+    descripcion: Una vela de cera, apagada.
+  - id: cerillos
+    nombre: Cerillos
+    descripcion: Una cajita de cerillos. Se pueden combinar con algo.
+  - id: vela_encendida
+    nombre: Vela encendida
+    descripcion: "La vela ya tiene flama. \xA1Cuidado!"
+  - id: llave_campanario
+    nombre: Llave del campanario
+    descripcion: Una llave grande de bronce.
+  - id: partitura
+    nombre: Partitura de campanas
+    descripcion: 'Notas escritas en tres renglones: unas arriba (agudas) y otras abajo (graves).'
+  - id: llave_kiosko
+    nombre: Llave del kiosko
+    descripcion: Una llave verde, como la reja del kiosko.
+  - id: palo
+    nombre: "Palo de pi\xF1ata"
+    descripcion: Un palo forrado con listones de colores.
+  - id: cajita
+    nombre: Cajita de madera
+    descripcion: "Tiene un candado con tres ruedas de dibujos. T\xF3cala otra vez para abrirla."
+  - id: llave_bodega
+    nombre: Llave de la bodega
+    descripcion: "La llave de la bodega de Do\xF1a Lupita."
+  - id: carta
+    nombre: Carta en blanco
+    descripcion: "Una hoja que huele a lim\xF3n... \xBFy si se calienta?"
+  - id: carta_revelada
+    nombre: Carta revelada
+    descripcion: "\xABClave: XVI entre IV\xBB. Abajo hay letras revueltas. Comb\xEDnala con la rueda de cifrado."
+  - id: rueda
+    nombre: Rueda de cifrado
+    descripcion: "Dos discos de cart\xF3n con el alfabeto. Comb\xEDnala con un mensaje cifrado."
+  - id: llave_cofre
+    nombre: Llave antigua
+    descripcion: Una llave de hierro con forma de campana.
+  - id: corona
+    nombre: Corona de la campana
+    descripcion: La parte de arriba de la campana.
+  - id: yugo
+    nombre: Yugo
+    descripcion: La viga de madera de la que cuelga la campana.
+  - id: badajo
+    nombre: Badajo
+    descripcion: "El p\xE9ndulo de hierro que golpea la campana."
+  - id: cuerpo
+    nombre: Cuerpo de la campana
+    descripcion: La parte que vibra y suena.
+  - id: ficha1
+    nombre: "Ficha de barro \xABA\xBB"
+    descripcion: "Ficha de barro con la letra A. No dice en qu\xE9 lugar va."
+  - id: ficha2
+    nombre: "Ficha de barro \xABL\xBB"
+    descripcion: "Ficha de barro con la letra L. No dice en qu\xE9 lugar va."
+  - id: ficha3
+    nombre: "Ficha de barro \xABD\xBB"
+    descripcion: "Ficha de barro con la letra D. No dice en qu\xE9 lugar va."
+  - id: ficha4
+    nombre: "Ficha de barro \xABA\xBB"
+    descripcion: "Ficha de barro con la letra A. No dice en qu\xE9 lugar va."
+  - id: ficha5
+    nombre: "Ficha de barro \xABM\xBB"
+    descripcion: "Ficha de barro con la letra M. No dice en qu\xE9 lugar va."
+  - id: ficha6
+    nombre: "Ficha de barro \xABA\xBB"
+    descripcion: "Ficha de barro con la letra A. No dice en qu\xE9 lugar va."
+  combinaciones:
+  - a: vela
+    b: cerillos
+    resultado: vela_encendida
+    mensaje: "\xA1Encend\xED la vela con un cerillo!"
+    conservarA: 0
+    conservarB: 0
+  - a: vela_encendida
+    b: carta
+    resultado: carta_revelada
+    mensaje: "Al calentar la carta con la vela aparecieron letras: \xA1tinta invisible de lim\xF3n!"
+    conservarA: 0
+    conservarB: 0
+  - a: rueda
+    b: carta_revelada
+    resultado: '@cesar'
+    mensaje: 
+    conservarA: 1
+    conservarB: 1
+  dialogos:
+  - clave: no_sirve
+    quien: ana
+    expresion: pensando
+    texto: "Eso no sirve aqu\xED."
+  - clave: no_combina
+    quien: ana
+    expresion: pensando
+    texto: Esas dos cosas no se combinan.
+  - clave: mochila_llena
+    quien: ana
+    expresion: sorpresa
+    texto: "\xA1La mochila est\xE1 llena!"
+  - clave: bienvenida
+    quien: ana
+    expresion: feliz
+    texto: "\xA1Hola! Soy Ana. Este es mi diario de pistas. Toca los lugares para explorar y recoger objetos."
+  - clave: intro_n1
+    quien: ana
+    expresion: sorpresa
+    texto: "Madrugada del 15 de septiembre. Esta noche es el Grito... \xA1y hay una nota clavada en la puerta de la Parroquia!"
+  - clave: intro_n1
+    quien: campanero
+    expresion: 
+    texto: "\xABLa campana del Grito ya no est\xE1. La desarm\xE9 y escond\xED sus cuatro piezas en el pueblo. Si la quieren de vuelta antes de las 11 de la noche, sigan mis pistas.\xBB \u2014 El Campanero"
+  - clave: intro_n1
+    quien: ana
+    expresion: pensando
+    texto: "\xBFQui\xE9n har\xEDa algo as\xED? Voy a encontrar las piezas... y a El Campanero. Empiezo por la placa del atrio."
+  - clave: n1_placa
+    quien: ana
+    expresion: normal
+    texto: "La placa dice: \xABEsta fachada se termin\xF3 en MDCCLXXVIII. En la madrugada del XVI del mes IX del a\xF1o MDCCCX, aqu\xED se llam\xF3 a la libertad\xBB."
+  - clave: n1_placa
+    quien: ana
+    expresion: pensando
+    texto: "N\xFAmeros romanos... y dos fechas distintas. El candado de la sacrist\xEDa pide un d\xEDa y un mes."
+  - clave: n1_sacristia_cerrada
+    quien: ana
+    expresion: pensando
+    texto: "La puerta de la sacrist\xEDa tiene un candado de cuatro ruedas."
+  - clave: n1_candado_ok
+    quien: ana
+    expresion: feliz
+    texto: "\xA1Clic! El candado se abri\xF3."
+  - clave: n1_tomas
+    quien: tomas
+    expresion: 
+    texto: "\xA1Ana! \xBFT\xFA tambi\xE9n viste la nota? Yo pas\xE9 la noche rezando el rosario... \xA1y no o\xED nada!"
+  - clave: n1_tomas
+    quien: ana
+    expresion: pensando
+    texto: "(Don Tom\xE1s, el sacrist\xE1n, enciende una vela con la mano derecha. Es bajito y trae su estola azul.)"
+  - clave: n1_tomas
+    quien: tomas
+    expresion: 
+    texto: "Llaves de la torre solo hay tres: la m\xEDa, la de Do\xF1a Lupita, que arregla las flores del altar, y la vieja de Don Chuy, que era de su abuelo campanero."
+  - clave: n1_tomas
+    quien: ana
+    expresion: normal
+    texto: Lo anoto en mi diario. Cualquier detalle puede servir.
+  - clave: n1_evidencia_llave
+    quien: ana
+    expresion: sorpresa
+    texto: "La puerta de la torre estaba cerrada con llave y no est\xE1 forzada... pero hay cera fresca en los escalones."
+  - clave: n1_evidencia_llave
+    quien: ana
+    expresion: pensando
+    texto: "Evidencia: El Campanero ten\xEDa llave de la torre. Solo hay tres llaves."
+  - clave: n1_roseton_fuera
+    quien: ana
+    expresion: normal
+    texto: "El roset\xF3n es precioso. Desde adentro se debe ver mejor."
+  - clave: n1_campanas_mudas
+    quien: ana
+    expresion: normal
+    texto: "Las campanas est\xE1n en silencio. Para llegar al campanario hay que entrar por la torre."
+  - clave: n1_principal_cerrada
+    quien: ana
+    expresion: normal
+    texto: "La puerta principal est\xE1 atrancada por dentro."
+  - clave: n1_principal_abierta
+    quien: ana
+    expresion: feliz
+    texto: "Quit\xE9 la tranca de la puerta principal. Ahora puedo entrar directo a la nave."
+  - clave: n1_torre_cerrada
+    quien: ana
+    expresion: pensando
+    texto: "La puerta de la torre est\xE1 cerrada con llave."
+  - clave: n1_torre_abre
+    quien: ana
+    expresion: feliz
+    texto: "\xA1La llave del campanario abre la torre!"
+  - clave: n1_ropero
+    quien: ana
+    expresion: normal
+    texto: "Casullas bordadas y olor a incienso. Nada m\xE1s."
+  - clave: n1_ventana
+    quien: ana
+    expresion: normal
+    texto: Por la ventana se ve la madrugada sobre Dolores.
+  - clave: n1_cuadro
+    quien: ana
+    expresion: pensando
+    texto: "Las piezas de este cuadro est\xE1n revueltas... \xA1es un rompecabezas!"
+  - clave: n1_cuadro_ok
+    quien: ana
+    expresion: sorpresa
+    texto: "\xA1El cuadro se abri\xF3 como una puertita! Hay algo brillando detr\xE1s."
+  - clave: n1_roseton_alto
+    quien: ana
+    expresion: pensando
+    texto: "El roset\xF3n tiene tres anillos que giran, pero est\xE1 muy alto. Necesito algo largo."
+  - clave: n1_roseton_ok
+    quien: ana
+    expresion: sorpresa
+    texto: "\xA1La luz de la luna atraves\xF3 el roset\xF3n y cay\xF3 sobre el altar! Algo brilla ah\xED."
+  - clave: n1_altar
+    quien: ana
+    expresion: normal
+    texto: El altar de la Virgen de los Dolores.
+  - clave: n1_retablo
+    quien: ana
+    expresion: normal
+    texto: Un retablo dorado lleno de flores talladas.
+  - clave: n1_candelero
+    quien: ana
+    expresion: normal
+    texto: "El candelero del sacrist\xE1n. Siempre deja cerca sus cerillos."
+  - clave: n1_candelabro_oscuro
+    quien: ana
+    expresion: pensando
+    texto: Un candelabro de nueve velas unidas por brazos de bronce. Necesito una vela encendida para prenderlas.
+  - clave: n1_candelabro_ok
+    quien: ana
+    expresion: feliz
+    texto: "\xA1Las nueve velas encendidas! Ya se ve la escalera."
+  - clave: n1_escalera_oscura
+    quien: ana
+    expresion: pensando
+    texto: "Est\xE1 muy oscuro para subir por la escalera."
+  - clave: n1_campanas_sin
+    quien: ana
+    expresion: pensando
+    texto: 'Tres campanas: grande, mediana y chica. Si tuviera las notas del campanero...'
+  - clave: n1_campanas_ok
+    quien: ana
+    expresion: sorpresa
+    texto: "\xA1Sonaron las tres! Algo cay\xF3 al suelo."
+  - clave: fin_n1
+    quien: ana
+    expresion: feliz
+    texto: "\xA1La corona de la campana! Primera pieza."
+  - clave: fin_n1
+    quien: campanero
+    expresion: 
+    texto: "Junto a la corona hab\xEDa otra nota: \xABVas bien, Ana. La siguiente pieza est\xE1 donde el pueblo se re\xFAne.\xBB \u2014 El Campanero"
+  - clave: fin_n1
+    quien: ana
+    expresion: normal
+    texto: "Ya est\xE1 amaneciendo. \xA1A la Plaza Principal!"
+  - clave: intro_n2
+    quien: ana
+    expresion: feliz
+    texto: "Ya es de ma\xF1ana. La plaza se prepara para el Grito: papel picado por todos lados... \xA1y ya huele a nieve de garrafa!"
+  - clave: intro_n2
+    quien: chuy
+    expresion: 
+    texto: "\xA1P\xE1sele, p\xE1sele! Nieves de sabores que no va a encontrar en otro lado."
+  - clave: intro_n2
+    quien: ana
+    expresion: pensando
+    texto: Don Chuy sabe todo lo que pasa en la plaza. A lo mejor sabe algo de la campana.
+  - clave: n2_chuy_1
+    quien: chuy
+    expresion: 
+    texto: "\xBFLa nota de El Campanero? \xA1Qu\xE9 susto! Yo toda la noche cargu\xE9 hielo. Con estas patotas del 29 ni en lo oscuro me tropiezo."
+  - clave: n2_chuy_1
+    quien: chuy
+    expresion: 
+    texto: "Vi a alguien de madrugada junto a la estatua... Pero primero ay\xFAdeme: \xA1se me revolvieron los vasos de muestra!"
+  - clave: n2_chuy_ok
+    quien: chuy
+    expresion: 
+    texto: "\xA1As\xED mero! Tenga la llave del kiosko. Y ya abr\xED la never\xEDa; p\xE1sele cuando quiera."
+  - clave: n2_chuy_despues
+    quien: chuy
+    expresion: 
+    texto: "Esta ma\xF1ana amanecieron fichas de barro con letras regadas por la plaza. \xBFSer\xE1n de El Campanero? Forman el nombre de un valiente... pero revuelto."
+  - clave: n2_kiosko_cerrado
+    quien: ana
+    expresion: pensando
+    texto: La reja del kiosko tiene candado. Don Chuy debe tener la llave.
+  - clave: n2_kiosko_abre
+    quien: ana
+    expresion: feliz
+    texto: "\xA1La llave abri\xF3 la reja del kiosko!"
+  - clave: n2_neveria_cerrada
+    quien: ana
+    expresion: normal
+    texto: "La never\xEDa est\xE1 cerrada. El letrero dice: \xABPregunte a Don Chuy\xBB."
+  - clave: n2_papel
+    quien: ana
+    expresion: pensando
+    texto: "Un papel picado sin recortar, con n\xFAmeros en las orillas."
+  - clave: n2_papel_ok
+    quien: ana
+    expresion: sorpresa
+    texto: "\xA1Recort\xE9 una campana! Detr\xE1s del papel hab\xEDa una ficha."
+  - clave: n2_jarras_ok
+    quien: ana
+    expresion: feliz
+    texto: "\xA1Cuatro y cuatro! Debajo de la jarra hab\xEDa una ficha."
+  - clave: n2_garrafas
+    quien: ana
+    expresion: normal
+    texto: "Garrafas de nieve de lim\xF3n, chocolate, fresa y mango. \xA1Qu\xE9 antojo!"
+  - clave: n2_letreros
+    quien: ana
+    expresion: normal
+    texto: "Sabores rar\xEDsimos: mole, camar\xF3n, tequila, aguacate... \xA1Don Chuy es todo un inventor!"
+  - clave: n2_placa
+    quien: ana
+    expresion: pensando
+    texto: "La placa dice SEPTIEMBRE \xB7 1810 y tiene cinco huecos. Hay que ordenar lo que pas\xF3."
+  - clave: n2_placa_ok
+    quien: ana
+    expresion: sorpresa
+    texto: "\xA1Se abri\xF3 un compartimento en la base! Hay un cilindro con letras: un criptex."
+  - clave: n2_placa_ok
+    quien: ana
+    expresion: pensando
+    texto: 'Y en el polvo, junto a la base, hay una huella chiquita de huarache. Evidencia: El Campanero tiene el pie chico.'
+  - clave: n2_compartimento
+    quien: ana
+    expresion: normal
+    texto: "Una puertita de piedra con una campana grabada. No se abre as\xED nada m\xE1s."
+  - clave: n2_criptex_ok
+    quien: ana
+    expresion: sorpresa
+    texto: "\xA1ALDAMA! Dentro del criptex estaba el yugo de la campana."
+  - clave: n2_salida
+    quien: ana
+    expresion: normal
+    texto: Desde el kiosko se ve toda la plaza.
+  - clave: fin_n2
+    quien: ana
+    expresion: feliz
+    texto: "\xA1El yugo! Ya tengo dos piezas."
+  - clave: fin_n2
+    quien: campanero
+    expresion: 
+    texto: "Dentro del criptex ven\xEDa una nota: \xABLo que sigue es dulce... y se rompe a golpes.\xBB \u2014 El Campanero"
+  - clave: fin_n2
+    quien: ana
+    expresion: normal
+    texto: "\xBFDulce y a golpes? \xA1Al Mercado Hidalgo!"
+  - clave: intro_n3
+    quien: ana
+    expresion: feliz
+    texto: 'El Mercado Hidalgo: cajeta, cocadas, jamoncillos...'
+  - clave: intro_n3
+    quien: lupita
+    expresion: 
+    texto: "\xA1Ay, mija, qu\xE9 bueno que llegas! Alguien me revolvi\xF3 una cocada hueca entre las buenas."
+  - clave: intro_n3
+    quien: ana
+    expresion: pensando
+    texto: "Y en la pi\xF1ata del pasillo algo suena adentro..."
+  - clave: n3_lupita_1
+    quien: lupita
+    expresion: 
+    texto: "Ay\xFAdame a encontrar la cocada hueca. Nom\xE1s te dejo usar la b\xE1scula dos veces, \xBFeh?"
+  - clave: n3_lupita_1
+    quien: ana
+    expresion: pensando
+    texto: "(Do\xF1a Lupita acomoda las cocadas con la mano izquierda, rapid\xEDsimo.)"
+  - clave: n3_lupita_ok
+    quien: lupita
+    expresion: 
+    texto: "\xA1Esa era! Gracias, mija. Toma la llave de la bodega."
+  - clave: n3_lupita_ok
+    quien: lupita
+    expresion: 
+    texto: "Y si encuentras una cajita con candado de dibujos... dicen que la clave est\xE1 en la bodega."
+  - clave: n3_lupita_despues
+    quien: lupita
+    expresion: 
+    texto: "La bodega est\xE1 al fondo del pasillo, mija."
+  - clave: n3_pinata_sin
+    quien: ana
+    expresion: pensando
+    texto: "La pi\xF1ata est\xE1 muy alta. Necesito un palo."
+  - clave: n3_pinata_ok
+    quien: ana
+    expresion: sorpresa
+    texto: "\xA1Se rompi\xF3! Entre los dulces cay\xF3 una cajita de madera."
+  - clave: n3_pinata_ok
+    quien: ana
+    expresion: pensando
+    texto: "En la cuerda de la pi\xF1ata qued\xF3 enganchado un hilo azul. Evidencia: El Campanero llevaba algo azul."
+  - clave: n3_bodega_cerrada
+    quien: ana
+    expresion: pensando
+    texto: "La bodega tiene llave. Do\xF1a Lupita debe tenerla."
+  - clave: n3_bodega_abre
+    quien: ana
+    expresion: feliz
+    texto: "\xA1La llave abri\xF3 la bodega!"
+  - clave: n3_alfarero_1
+    quien: alfarero
+    expresion: 
+    texto: "Buenas. El canal de mi mural qued\xF3 todo chueco. Si me lo arregla, le presto mi palo de pi\xF1ata."
+  - clave: n3_canal_ok
+    quien: alfarero
+    expresion: 
+    texto: "\xA1Ya corre el agua! Tenga el palo... y no le pegue a mis platos."
+  - clave: n3_alfarero_despues
+    quien: alfarero
+    expresion: 
+    texto: "La talavera se hace igual que hace doscientos a\xF1os: barro, esmalte y mucha paciencia."
+  - clave: n3_ollas_ok
+    quien: ana
+    expresion: sorpresa
+    texto: "Al mover las ollas aparecieron tres s\xEDmbolos pintados en el piso."
+  - clave: n3_costales
+    quien: ana
+    expresion: normal
+    texto: "Costales de az\xFAcar y coco para las cocadas."
+  - clave: n3_simbolos_ok
+    quien: ana
+    expresion: sorpresa
+    texto: "\xA1Clic! Dentro de la cajita estaba el badajo de la campana."
+  - clave: fin_n3
+    quien: ana
+    expresion: feliz
+    texto: "\xA1El badajo! Solo falta una pieza."
+  - clave: fin_n3
+    quien: campanero
+    expresion: 
+    texto: "Pegada a la cajita: \xABLa \xFAltima pieza est\xE1 en la casa del que llam\xF3 al pueblo. Ah\xED sabr\xE1s qui\xE9n soy.\xBB \u2014 El Campanero"
+  - clave: fin_n3
+    quien: ana
+    expresion: normal
+    texto: "La casa del que llam\xF3 al pueblo... \xA1la Casa de Hidalgo!"
+  - clave: intro_n4
+    quien: ana
+    expresion: pensando
+    texto: "La Casa de Hidalgo. Aqu\xED vivi\xF3 el cura Miguel Hidalgo."
+  - clave: intro_n4
+    quien: ana
+    expresion: sorpresa
+    texto: "Hay una vitrina vac\xEDa con el contorno de una campana. Aqu\xED la voy a armar... cuando sepa qui\xE9n es El Campanero."
+  - clave: n4_vitrina_falta
+    quien: ana
+    expresion: pensando
+    texto: Para armar la campana necesito las cuatro piezas.
+  - clave: n4_cajon
+    quien: ana
+    expresion: sorpresa
+    texto: "\xA1En el caj\xF3n hay una rueda de cart\xF3n con letras!"
+  - clave: n4_cajon_vacio
+    quien: ana
+    expresion: normal
+    texto: "El caj\xF3n ya est\xE1 vac\xEDo."
+  - clave: n4_candelero
+    quien: ana
+    expresion: pensando
+    texto: Un candelero sin vela. En la biblioteca vi una.
+  - clave: n4_carta_info
+    quien: ana
+    expresion: pensando
+    texto: "La carta dice: \xABClave: XVI entre IV\xBB. Abajo hay letras sin sentido."
+  - clave: n4_evidencia_zurdo
+    quien: ana
+    expresion: sorpresa
+    texto: "\xA1Un momento! La tinta de la carta est\xE1 corrida hacia la derecha: la escribi\xF3 alguien zurdo, que arrastr\xF3 la mano sobre la tinta."
+  - clave: n4_evidencia_zurdo
+    quien: ana
+    expresion: pensando
+    texto: 'Es la misma letra de las notas. Evidencia: El Campanero es zurdo.'
+  - clave: n4_cesar_ok
+    quien: ana
+    expresion: sorpresa
+    texto: "\xABLos libros guardan la combinaci\xF3n: ord\xE9nalos por su a\xF1o\xBB. \xA1A la biblioteca!"
+  - clave: n4_libros_antes
+    quien: ana
+    expresion: pensando
+    texto: "Libros sobre la vida de Hidalgo, todos revueltos. Cada uno tiene un a\xF1o en n\xFAmeros romanos y un n\xFAmero dorado."
+  - clave: n4_libros_ok
+    quien: ana
+    expresion: feliz
+    texto: "Ordenados por a\xF1o, los n\xFAmeros dorados quedaron en fila. Los voy a anotar."
+  - clave: n4_caja_ok
+    quien: ana
+    expresion: sorpresa
+    texto: "\xA1Se abri\xF3! Hay una llave antigua y un mapa del camino insurgente."
+  - clave: n4_cofre_cerrado
+    quien: ana
+    expresion: pensando
+    texto: Un cofre bajo la morera, con una cerradura antigua.
+  - clave: n4_cofre_ruta
+    quien: ana
+    expresion: pensando
+    texto: 'La llave entra, pero hay otro seguro: botones con nombres de pueblos. El mapa de piedra dice el camino.'
+  - clave: n4_mapa
+    quien: ana
+    expresion: normal
+    texto: Un mapa de piedra con los pueblos de la Intendencia de Guanajuato.
+  - clave: n4_ruta_ok
+    quien: ana
+    expresion: sorpresa
+    texto: "\xA1El cofre se abri\xF3! Adentro est\xE1 el cuerpo de la campana."
+  - clave: n4_morera
+    quien: ana
+    expresion: normal
+    texto: "La morera. Hidalgo ense\xF1\xF3 aqu\xED a criar gusanos de seda."
+  - clave: n4_estantes
+    quien: ana
+    expresion: normal
+    texto: "Libros de agricultura, de m\xFAsica y de teolog\xEDa."
+  - clave: fin_n4
+    quien: ana
+    expresion: feliz
+    texto: "\xA1El cuerpo de la campana! Ya tengo las cuatro piezas."
+  - clave: fin_n4
+    quien: ana
+    expresion: pensando
+    texto: "Antes de armarla tengo que resolver el caso. Con las cuatro evidencias ya puedo saber qui\xE9n es El Campanero."
+  - clave: fin_n4
+    quien: ana
+    expresion: normal
+    texto: A la vitrina de la sala.
+  - clave: caso_antes
+    quien: ana
+    expresion: pensando
+    texto: 'Repasemos el caso: cuatro evidencias y cuatro sospechosos.'
+  - clave: confesion
+    quien: lupita
+    expresion: 
+    texto: Ay, mija... me descubriste.
+  - clave: confesion
+    quien: lupita
+    expresion: 
+    texto: "Cada a\xF1o suena la campana y nadie sabe por qu\xE9 suena. Quise que alguien la buscara como la buscaron en 1810."
+  - clave: confesion
+    quien: lupita
+    expresion: 
+    texto: "Las notas, las fichas, la cajita... todo lo escond\xED yo. Y t\xFA encontraste todo. \xC1ndale: \xE1rmala y t\xF3cala t\xFA."
+  - clave: confesion
+    quien: ana
+    expresion: feliz
+    texto: "\xA1Todav\xEDa llegamos al Grito!"
+  - clave: final
+    quien: ana
+    expresion: sorpresa
+    texto: "\xA1La campana est\xE1 completa!"
+  - clave: final
+    quien: ana
+    expresion: feliz
+    texto: "Dolores vuelve a escuchar su campana. \xA1Leyenda resuelta!"

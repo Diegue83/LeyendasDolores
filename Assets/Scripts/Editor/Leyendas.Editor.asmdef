@@ -1,0 +1,11 @@
+{
+    "name": "Leyendas.Editor",
+    "rootNamespace": "Leyendas.Editor",
+    "references": ["Leyendas", "UnityEngine.UI"],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "autoReferenced": true,
+    "noEngineReferences": false
+}

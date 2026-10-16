@@ -1,0 +1,2829 @@
+{
+ "vistas": [
+  {
+   "id": "n1_atrio",
+   "fondo": "Escenas/n1_atrio",
+   "capas": [
+    {
+     "nombre": "pueblo",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_atrio__pueblo",
+     "x": -10.3125,
+     "y": 176.484375,
+     "w": 420.1171875,
+     "h": 136.9140625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "torre_izq",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_atrio__torre_izq",
+     "x": 87.9296875,
+     "y": -3.203125,
+     "w": 51.953125,
+     "h": 268.1640625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "campanas_a",
+     "tipo": "parche",
+     "archivo": "Capas/n1_atrio__campanas_a",
+     "x": 87.9296875,
+     "y": -3.203125,
+     "w": 51.953125,
+     "h": 268.1640625,
+     "plano": "",
+     "padre": "torre_izq"
+    },
+    {
+     "nombre": "torre_der",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_atrio__torre_der",
+     "x": 260.0,
+     "y": -3.3984375,
+     "w": 51.953125,
+     "h": 268.359375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "campanas_b",
+     "tipo": "parche",
+     "archivo": "Capas/n1_atrio__campanas_b",
+     "x": 260.0,
+     "y": -3.3984375,
+     "w": 51.953125,
+     "h": 268.359375,
+     "plano": "",
+     "padre": "torre_der"
+    },
+    {
+     "nombre": "fachada",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_atrio__fachada",
+     "x": 133.6328125,
+     "y": 26.875,
+     "w": 132.6171875,
+     "h": 238.0859375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "roseton_vitral",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_atrio__roseton_vitral",
+     "x": 179.7265625,
+     "y": 103.828125,
+     "w": 40.4296875,
+     "h": 40.4296875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "puerta_principal_hoja",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_atrio__puerta_principal_hoja",
+     "x": 177.96875,
+     "y": 194.84375,
+     "w": 43.9453125,
+     "h": 70.1171875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "puerta_abierta",
+     "tipo": "parche",
+     "archivo": "Capas/n1_atrio__puerta_abierta",
+     "x": 176.015625,
+     "y": 194.84375,
+     "w": 47.65625,
+     "h": 74.0234375,
+     "plano": "",
+     "padre": "puerta_principal_hoja"
+    },
+    {
+     "nombre": "placa_bronce",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_atrio__placa_bronce",
+     "x": 144.765625,
+     "y": 205.9765625,
+     "w": 31.640625,
+     "h": 31.640625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "puerta_torre_hoja",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_atrio__puerta_torre_hoja",
+     "x": 101.2109375,
+     "y": 226.09375,
+     "w": 25.5859375,
+     "h": 38.671875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "torre_abierta",
+     "tipo": "parche",
+     "archivo": "Capas/n1_atrio__torre_abierta",
+     "x": 101.2109375,
+     "y": 226.09375,
+     "w": 25.5859375,
+     "h": 38.671875,
+     "plano": "",
+     "padre": "puerta_torre_hoja"
+    },
+    {
+     "nombre": "torre_luz",
+     "tipo": "parche",
+     "archivo": "Capas/n1_atrio__torre_luz",
+     "x": 94.765625,
+     "y": 221.9921875,
+     "w": 38.0859375,
+     "h": 42.7734375,
+     "plano": "",
+     "padre": "puerta_torre_hoja"
+    },
+    {
+     "nombre": "sacristia",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_atrio__sacristia",
+     "x": 301.40625,
+     "y": 178.6328125,
+     "w": 74.21875,
+     "h": 86.328125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "sacristia_abierta",
+     "tipo": "parche",
+     "archivo": "Capas/n1_atrio__sacristia_abierta",
+     "x": 297.6953125,
+     "y": 178.6328125,
+     "w": 77.9296875,
+     "h": 124.609375,
+     "plano": "",
+     "padre": "sacristia"
+    },
+    {
+     "nombre": "farol_sacristia",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_atrio__farol_sacristia",
+     "x": 347.890625,
+     "y": 188.3984375,
+     "w": 32.421875,
+     "h": 32.421875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "escalinata",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_atrio__escalinata",
+     "x": 107.4609375,
+     "y": 254.4140625,
+     "w": 185.15625,
+     "h": 11.5234375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "farol",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_atrio__farol",
+     "x": -40.0,
+     "y": 100.3125,
+     "w": 129.4921875,
+     "h": 202.9296875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "arbol",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_atrio__arbol",
+     "x": 362.1484375,
+     "y": 89.5703125,
+     "w": 77.734375,
+     "h": 175.390625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "focos",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_atrio__focos",
+     "x": -8.1640625,
+     "y": 4.609375,
+     "w": 416.2109375,
+     "h": 38.8671875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "luces",
+     "tipo": "recorte",
+     "archivo": "Capas/n1_atrio__luces",
+     "x": -0.546875,
+     "y": 5.0,
+     "w": 400.9765625,
+     "h": 38.4765625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "vineta",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_atrio__vineta",
+     "x": -4.0625,
+     "y": -3.3984375,
+     "w": 408.0078125,
+     "h": 306.640625,
+     "plano": "",
+     "padre": ""
+    }
+   ],
+   "zonas": [
+    {
+     "nombre": "placa",
+     "x": 145,
+     "y": 209,
+     "w": 32,
+     "h": 24
+    },
+    {
+     "nombre": "puerta_sacristia",
+     "x": 316,
+     "y": 216,
+     "w": 32,
+     "h": 48
+    },
+    {
+     "nombre": "puerta_torre",
+     "x": 102,
+     "y": 226,
+     "w": 26,
+     "h": 38
+    },
+    {
+     "nombre": "puerta_principal",
+     "x": 181,
+     "y": 198,
+     "w": 38,
+     "h": 64
+    },
+    {
+     "nombre": "roseton",
+     "x": 184,
+     "y": 104,
+     "w": 32,
+     "h": 42
+    },
+    {
+     "nombre": "campanas",
+     "x": 92,
+     "y": 56,
+     "w": 46,
+     "h": 36
+    }
+   ],
+   "planos": []
+  },
+  {
+   "id": "n1_campanario",
+   "fondo": "Escenas/n1_campanario",
+   "capas": [
+    {
+     "nombre": "cielo_madrugada",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_campanario__cielo_madrugada",
+     "x": -40.0,
+     "y": -20.0,
+     "w": 479.8828125,
+     "h": 339.84375,
+     "plano": "afuera",
+     "padre": ""
+    },
+    {
+     "nombre": "pueblo",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_campanario__pueblo",
+     "x": -40.0,
+     "y": 114.375,
+     "w": 479.8828125,
+     "h": 188.8671875,
+     "plano": "afuera",
+     "padre": ""
+    },
+    {
+     "nombre": "arco_mediana",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_campanario__arco_mediana",
+     "x": 52.578125,
+     "y": 26.875,
+     "w": 84.375,
+     "h": 199.609375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "arco_grande",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_campanario__arco_grande",
+     "x": 139.6875,
+     "y": 26.875,
+     "w": 120.5078125,
+     "h": 199.609375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "arco_chica",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_campanario__arco_chica",
+     "x": 262.9296875,
+     "y": 26.875,
+     "w": 84.375,
+     "h": 199.609375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "cuerdas",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_campanario__cuerdas",
+     "x": 92.8125,
+     "y": 106.7578125,
+     "w": 219.921875,
+     "h": 166.2109375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "campana_mediana",
+     "tipo": "recorte",
+     "archivo": "Capas/n1_campanario__campana_mediana",
+     "x": 62.9296875,
+     "y": 62.2265625,
+     "w": 63.671875,
+     "h": 64.6484375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "campana_grande",
+     "tipo": "recorte",
+     "archivo": "Capas/n1_campanario__campana_grande",
+     "x": 154.921875,
+     "y": 80.5859375,
+     "w": 90.0390625,
+     "h": 86.71875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "campana_chica",
+     "tipo": "recorte",
+     "archivo": "Capas/n1_campanario__campana_chica",
+     "x": 279.7265625,
+     "y": 62.2265625,
+     "w": 50.78125,
+     "h": 53.515625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "obj_corona",
+     "tipo": "recorte",
+     "archivo": "Capas/n1_campanario__obj_corona",
+     "x": 234.609375,
+     "y": 247.3828125,
+     "w": 43.9453125,
+     "h": 43.75,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "vineta",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_campanario__vineta",
+     "x": -4.0625,
+     "y": -3.3984375,
+     "w": 408.0078125,
+     "h": 306.640625,
+     "plano": "",
+     "padre": ""
+    }
+   ],
+   "zonas": [
+    {
+     "nombre": "campanas",
+     "x": 56,
+     "y": 70,
+     "w": 288,
+     "h": 120
+    }
+   ],
+   "planos": [
+    {
+     "nombre": "afuera",
+     "archivo": "",
+     "paralaje": -0.5,
+     "delante": false,
+     "x": 0,
+     "y": 0,
+     "w": 400,
+     "h": 300
+    }
+   ]
+  },
+  {
+   "id": "n1_nave",
+   "fondo": "Escenas/n1_nave",
+   "capas": [
+    {
+     "nombre": "roseton_vitral",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_nave__roseton_vitral",
+     "x": 181.09375,
+     "y": 15.7421875,
+     "w": 37.6953125,
+     "h": 37.5,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "retablo_dorado",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_nave__retablo_dorado",
+     "x": 143.59375,
+     "y": 47.1875,
+     "w": 112.6953125,
+     "h": 165.0390625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "altar_mesa",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_nave__altar_mesa",
+     "x": 127.578125,
+     "y": 167.5,
+     "w": 144.3359375,
+     "h": 56.8359375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "puerta_sacristia_hoja",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_nave__puerta_sacristia_hoja",
+     "x": 344.1796875,
+     "y": 71.9921875,
+     "w": 55.2734375,
+     "h": 176.3671875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "bancas",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_nave__bancas",
+     "x": -40.0,
+     "y": 165.7421875,
+     "w": 479.8828125,
+     "h": 154.1015625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "candelero_pie",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_nave__candelero_pie",
+     "x": 55.8984375,
+     "y": 111.0546875,
+     "w": 33.203125,
+     "h": 143.75,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "candil",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_nave__candil",
+     "x": 170.546875,
+     "y": 2.65625,
+     "w": 58.7890625,
+     "h": 25.5859375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "rayo",
+     "tipo": "recorte",
+     "archivo": "Capas/n1_nave__rayo",
+     "x": 169.9609375,
+     "y": 6.5625,
+     "w": 72.0703125,
+     "h": 193.5546875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "obj_cerillos",
+     "tipo": "recorte",
+     "archivo": "Capas/n1_nave__obj_cerillos",
+     "x": 82.0703125,
+     "y": 237.6171875,
+     "w": 19.3359375,
+     "h": 19.140625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "obj_partitura",
+     "tipo": "recorte",
+     "archivo": "Capas/n1_nave__obj_partitura",
+     "x": 185.1953125,
+     "y": 169.453125,
+     "w": 35.546875,
+     "h": 35.7421875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "vineta",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_nave__vineta",
+     "x": -4.0625,
+     "y": -3.3984375,
+     "w": 408.0078125,
+     "h": 306.640625,
+     "plano": "",
+     "padre": ""
+    }
+   ],
+   "zonas": [
+    {
+     "nombre": "roseton",
+     "x": 180,
+     "y": 16,
+     "w": 40,
+     "h": 40
+    },
+    {
+     "nombre": "altar",
+     "x": 156,
+     "y": 176,
+     "w": 88,
+     "h": 40
+    },
+    {
+     "nombre": "retablo",
+     "x": 146,
+     "y": 60,
+     "w": 108,
+     "h": 116
+    },
+    {
+     "nombre": "candelero",
+     "x": 56,
+     "y": 120,
+     "w": 40,
+     "h": 132
+    },
+    {
+     "nombre": "puerta_sacristia",
+     "x": 344,
+     "y": 74,
+     "w": 51,
+     "h": 171
+    }
+   ],
+   "planos": []
+  },
+  {
+   "id": "n1_sacristia",
+   "fondo": "Escenas/n1_sacristia",
+   "capas": [
+    {
+     "nombre": "ventana",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_sacristia__ventana",
+     "x": 266.0546875,
+     "y": 52.0703125,
+     "w": 43.359375,
+     "h": 62.109375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "cuadro",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_sacristia__cuadro",
+     "x": 140.6640625,
+     "y": 52.0703125,
+     "w": 118.5546875,
+     "h": 110.546875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "cuadro_abierto",
+     "tipo": "parche",
+     "archivo": "Capas/n1_sacristia__cuadro_abierto",
+     "x": 145.3515625,
+     "y": 47.3828125,
+     "w": 106.8359375,
+     "h": 115.625,
+     "plano": "",
+     "padre": "cuadro"
+    },
+    {
+     "nombre": "ropero_mueble",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_sacristia__ropero_mueble",
+     "x": 58.6328125,
+     "y": 70.0390625,
+     "w": 66.015625,
+     "h": 142.1875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "puerta_nave_hoja",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_sacristia__puerta_nave_hoja",
+     "x": 0.4296875,
+     "y": 59.8828125,
+     "w": 55.2734375,
+     "h": 188.4765625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "mesa",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_sacristia__mesa",
+     "x": 232.65625,
+     "y": 192.6953125,
+     "w": 112.5,
+     "h": 76.171875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "vela",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_sacristia__vela",
+     "x": 67.421875,
+     "y": 43.671875,
+     "w": 30.46875,
+     "h": 36.328125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "obj_vara",
+     "tipo": "recorte",
+     "archivo": "Capas/n1_sacristia__obj_vara",
+     "x": 125.4296875,
+     "y": 98.9453125,
+     "w": 31.25,
+     "h": 113.28125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "obj_vela",
+     "tipo": "recorte",
+     "archivo": "Capas/n1_sacristia__obj_vela",
+     "x": 291.8359375,
+     "y": 186.640625,
+     "w": 15.4296875,
+     "h": 23.6328125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "obj_llave_campanario",
+     "tipo": "recorte",
+     "archivo": "Capas/n1_sacristia__obj_llave_campanario",
+     "x": 184.8046875,
+     "y": 107.734375,
+     "w": 29.8828125,
+     "h": 27.734375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "vineta",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_sacristia__vineta",
+     "x": -4.0625,
+     "y": -3.3984375,
+     "w": 408.0078125,
+     "h": 306.640625,
+     "plano": "",
+     "padre": ""
+    }
+   ],
+   "zonas": [
+    {
+     "nombre": "cuadro",
+     "x": 143,
+     "y": 55,
+     "w": 114,
+     "h": 106
+    },
+    {
+     "nombre": "ropero",
+     "x": 64,
+     "y": 76,
+     "w": 60,
+     "h": 134
+    },
+    {
+     "nombre": "puerta_nave",
+     "x": 5,
+     "y": 63,
+     "w": 51,
+     "h": 183
+    },
+    {
+     "nombre": "ventana",
+     "x": 268,
+     "y": 54,
+     "w": 38,
+     "h": 60
+    }
+   ],
+   "planos": []
+  },
+  {
+   "id": "n1_torre",
+   "fondo": "Escenas/n1_torre",
+   "capas": [
+    {
+     "nombre": "ventana",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_torre__ventana",
+     "x": 56.6796875,
+     "y": 37.03125,
+     "w": 286.5234375,
+     "h": 175.1953125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "candelabro_velas",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_torre__candelabro_velas",
+     "x": 157.8515625,
+     "y": 85.46875,
+     "w": 84.1796875,
+     "h": 86.71875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "iluminada",
+     "tipo": "parche",
+     "archivo": "Capas/n1_torre__iluminada",
+     "x": 157.8515625,
+     "y": 85.46875,
+     "w": 84.1796875,
+     "h": 86.71875,
+     "plano": "",
+     "padre": "candelabro_velas"
+    },
+    {
+     "nombre": "escalera_piedra",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_torre__escalera_piedra",
+     "x": 274.453125,
+     "y": 6.5625,
+     "w": 165.4296875,
+     "h": 313.28125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "escalera_luz",
+     "tipo": "parche",
+     "archivo": "Capas/n1_torre__escalera_luz",
+     "x": 274.453125,
+     "y": 6.5625,
+     "w": 165.4296875,
+     "h": 313.28125,
+     "plano": "",
+     "padre": "escalera_piedra"
+    },
+    {
+     "nombre": "penumbra",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_torre__penumbra",
+     "x": -4.0625,
+     "y": -3.3984375,
+     "w": 408.0078125,
+     "h": 306.640625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "luz_calida",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_torre__luz_calida",
+     "x": -4.0625,
+     "y": -3.3984375,
+     "w": 408.0078125,
+     "h": 306.640625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "vineta",
+     "tipo": "elemento",
+     "archivo": "Capas/n1_torre__vineta",
+     "x": -4.0625,
+     "y": -3.3984375,
+     "w": 408.0078125,
+     "h": 306.640625,
+     "plano": "",
+     "padre": ""
+    }
+   ],
+   "zonas": [
+    {
+     "nombre": "candelabro",
+     "x": 154,
+     "y": 80,
+     "w": 92,
+     "h": 96
+    },
+    {
+     "nombre": "escalera",
+     "x": 282,
+     "y": 18,
+     "w": 118,
+     "h": 262
+    }
+   ],
+   "planos": []
+  },
+  {
+   "id": "n2_estatua",
+   "fondo": "Escenas/n2_estatua",
+   "capas": [
+    {
+     "nombre": "cielo",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_estatua__cielo",
+     "x": -40.0,
+     "y": -20.0,
+     "w": 479.8828125,
+     "h": 339.84375,
+     "plano": "afuera",
+     "padre": ""
+    },
+    {
+     "nombre": "arboles",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_estatua__arboles",
+     "x": -27.890625,
+     "y": 37.03125,
+     "w": 467.7734375,
+     "h": 94.140625,
+     "plano": "afuera",
+     "padre": ""
+    },
+    {
+     "nombre": "calle",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_estatua__calle",
+     "x": -4.0625,
+     "y": 168.4765625,
+     "w": 408.0078125,
+     "h": 134.765625,
+     "plano": "afuera",
+     "padre": ""
+    },
+    {
+     "nombre": "papel_picado",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_estatua__papel_picado",
+     "x": -14.21875,
+     "y": 2.65625,
+     "w": 428.3203125,
+     "h": 30.859375,
+     "plano": "afuera",
+     "padre": ""
+    },
+    {
+     "nombre": "pedestal",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_estatua__pedestal",
+     "x": 66.640625,
+     "y": 22.7734375,
+     "w": 266.2109375,
+     "h": 262.3046875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "cuerpo_monumento",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_estatua__cuerpo_monumento",
+     "x": 90.859375,
+     "y": -20.0,
+     "w": 218.1640625,
+     "h": 57.6171875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "placa_bronce",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_estatua__placa_bronce",
+     "x": 123.4765625,
+     "y": 59.296875,
+     "w": 152.9296875,
+     "h": 80.078125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "placa_resuelta",
+     "tipo": "parche",
+     "archivo": "Capas/n2_estatua__placa_resuelta",
+     "x": 123.4765625,
+     "y": 59.296875,
+     "w": 152.9296875,
+     "h": 80.078125,
+     "plano": "",
+     "padre": "placa_bronce"
+    },
+    {
+     "nombre": "compartimento",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_estatua__compartimento",
+     "x": 161.953125,
+     "y": 158.3203125,
+     "w": 75.9765625,
+     "h": 74.21875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "compartimento_abierto",
+     "tipo": "parche",
+     "archivo": "Capas/n2_estatua__compartimento_abierto",
+     "x": 147.6953125,
+     "y": 139.5703125,
+     "w": 90.234375,
+     "h": 92.96875,
+     "plano": "",
+     "padre": "compartimento"
+    },
+    {
+     "nombre": "macetas",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_estatua__macetas",
+     "x": 97.109375,
+     "y": 221.015625,
+     "w": 205.6640625,
+     "h": 27.734375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "criptex",
+     "tipo": "recorte",
+     "archivo": "Capas/n2_estatua__criptex",
+     "x": 169.9609375,
+     "y": 174.53125,
+     "w": 59.9609375,
+     "h": 39.84375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "vineta",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_estatua__vineta",
+     "x": -4.0625,
+     "y": -3.3984375,
+     "w": 408.0078125,
+     "h": 306.640625,
+     "plano": "",
+     "padre": ""
+    }
+   ],
+   "zonas": [
+    {
+     "nombre": "placa",
+     "x": 124,
+     "y": 60,
+     "w": 152,
+     "h": 80
+    },
+    {
+     "nombre": "compartimento",
+     "x": 160,
+     "y": 156,
+     "w": 80,
+     "h": 78
+    }
+   ],
+   "planos": [
+    {
+     "nombre": "afuera",
+     "archivo": "",
+     "paralaje": -0.45,
+     "delante": false,
+     "x": 0,
+     "y": 0,
+     "w": 400,
+     "h": 300
+    }
+   ]
+  },
+  {
+   "id": "n2_kiosko",
+   "fondo": "Escenas/n2_kiosko",
+   "capas": [
+    {
+     "nombre": "cielo",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_kiosko__cielo",
+     "x": -40.0,
+     "y": -20.0,
+     "w": 479.8828125,
+     "h": 339.84375,
+     "plano": "afuera",
+     "padre": ""
+    },
+    {
+     "nombre": "edificios",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_kiosko__edificios",
+     "x": -8.1640625,
+     "y": 75.5078125,
+     "w": 416.2109375,
+     "h": 100.390625,
+     "plano": "afuera",
+     "padre": ""
+    },
+    {
+     "nombre": "arboles",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_kiosko__arboles",
+     "x": 103.9453125,
+     "y": 102.4609375,
+     "w": 176.953125,
+     "h": 50.0,
+     "plano": "afuera",
+     "padre": ""
+    },
+    {
+     "nombre": "portales",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_kiosko__portales",
+     "x": -40.0,
+     "y": 74.921875,
+     "w": 479.8828125,
+     "h": 100.78125,
+     "plano": "afuera",
+     "padre": ""
+    },
+    {
+     "nombre": "barandal",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_kiosko__barandal",
+     "x": -4.0625,
+     "y": 168.4765625,
+     "w": 408.0078125,
+     "h": 66.015625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "columnas_kiosko",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_kiosko__columnas_kiosko",
+     "x": 93.984375,
+     "y": 26.875,
+     "w": 211.9140625,
+     "h": 211.71875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "techo",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_kiosko__techo",
+     "x": -28.28125,
+     "y": -3.3984375,
+     "w": 456.4453125,
+     "h": 67.3828125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "lamparas",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_kiosko__lamparas",
+     "x": 77.96875,
+     "y": 67.3046875,
+     "w": 243.9453125,
+     "h": 26.5625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "papel_picado_reto",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_kiosko__papel_picado_reto",
+     "x": 153.75,
+     "y": 41.1328125,
+     "w": 92.3828125,
+     "h": 114.453125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "papel_resuelto",
+     "tipo": "parche",
+     "archivo": "Capas/n2_kiosko__papel_resuelto",
+     "x": 153.75,
+     "y": 41.1328125,
+     "w": 92.3828125,
+     "h": 114.453125,
+     "plano": "",
+     "padre": "papel_picado_reto"
+    },
+    {
+     "nombre": "banca",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_kiosko__banca",
+     "x": 20.15625,
+     "y": 208.90625,
+     "w": 141.015625,
+     "h": 66.015625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "columnas_frente",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_kiosko__columnas_frente",
+     "x": -4.453125,
+     "y": -3.3984375,
+     "w": 408.7890625,
+     "h": 306.640625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "obj_ficha1",
+     "tipo": "recorte",
+     "archivo": "Capas/n2_kiosko__obj_ficha1",
+     "x": 81.875,
+     "y": 222.1875,
+     "w": 25.5859375,
+     "h": 25.5859375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "vineta",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_kiosko__vineta",
+     "x": -4.0625,
+     "y": -3.3984375,
+     "w": 408.0078125,
+     "h": 306.640625,
+     "plano": "",
+     "padre": ""
+    }
+   ],
+   "zonas": [
+    {
+     "nombre": "papel_picado",
+     "x": 152,
+     "y": 56,
+     "w": 96,
+     "h": 100
+    },
+    {
+     "nombre": "salida",
+     "x": 110,
+     "y": 176,
+     "w": 180,
+     "h": 56
+    }
+   ],
+   "planos": [
+    {
+     "nombre": "afuera",
+     "archivo": "",
+     "paralaje": -0.45,
+     "delante": false,
+     "x": 0,
+     "y": 0,
+     "w": 400,
+     "h": 300
+    }
+   ]
+  },
+  {
+   "id": "n2_neveria",
+   "fondo": "Escenas/n2_neveria",
+   "capas": [
+    {
+     "nombre": "papel_picado",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_neveria__papel_picado",
+     "x": 56.6796875,
+     "y": 43.0859375,
+     "w": 286.5234375,
+     "h": 30.859375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "letrero",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_neveria__letrero",
+     "x": 115.2734375,
+     "y": 55.1953125,
+     "w": 169.3359375,
+     "h": 33.59375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "sabores",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_neveria__sabores",
+     "x": 73.4765625,
+     "y": 92.6953125,
+     "w": 252.9296875,
+     "h": 16.2109375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "repisa",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_neveria__repisa",
+     "x": 68.7890625,
+     "y": 148.359375,
+     "w": 262.3046875,
+     "h": 49.8046875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "garrafas_nieve",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_neveria__garrafas_nieve",
+     "x": 85.9765625,
+     "y": 116.9140625,
+     "w": 227.9296875,
+     "h": 34.5703125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "puerta_plaza_hoja",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_neveria__puerta_plaza_hoja",
+     "x": -40.0,
+     "y": 78.4375,
+     "w": 95.703125,
+     "h": 199.609375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "mostrador",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_neveria__mostrador",
+     "x": 16.25,
+     "y": 213.0078125,
+     "w": 367.3828125,
+     "h": 90.234375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "jarras_vidrio",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_neveria__jarras_vidrio",
+     "x": 132.4609375,
+     "y": 150.3125,
+     "w": 121.6796875,
+     "h": 67.96875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "precio",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_neveria__precio",
+     "x": 66.8359375,
+     "y": 200.8984375,
+     "w": 25.5859375,
+     "h": 15.4296875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "obj_ficha2",
+     "tipo": "recorte",
+     "archivo": "Capas/n2_neveria__obj_ficha2",
+     "x": 318.59375,
+     "y": 195.8203125,
+     "w": 25.5859375,
+     "h": 25.5859375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "vineta",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_neveria__vineta",
+     "x": -4.0625,
+     "y": -3.3984375,
+     "w": 408.0078125,
+     "h": 306.640625,
+     "plano": "",
+     "padre": ""
+    }
+   ],
+   "zonas": [
+    {
+     "nombre": "jarras",
+     "x": 132,
+     "y": 148,
+     "w": 124,
+     "h": 70
+    },
+    {
+     "nombre": "garrafas",
+     "x": 84,
+     "y": 116,
+     "w": 232,
+     "h": 38
+    },
+    {
+     "nombre": "puerta_plaza",
+     "x": 5,
+     "y": 82,
+     "w": 51,
+     "h": 163
+    },
+    {
+     "nombre": "letreros",
+     "x": 74,
+     "y": 92,
+     "w": 252,
+     "h": 18
+    }
+   ],
+   "planos": []
+  },
+  {
+   "id": "n2_plaza",
+   "fondo": "Escenas/n2_plaza",
+   "capas": [
+    {
+     "nombre": "cielo",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__cielo",
+     "x": -40.0,
+     "y": -20.0,
+     "w": 479.8828125,
+     "h": 339.84375,
+     "plano": "cielo",
+     "padre": ""
+    },
+    {
+     "nombre": "nubes",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__nubes",
+     "x": -11.484375,
+     "y": -7.6953125,
+     "w": 451.3671875,
+     "h": 158.7890625,
+     "plano": "cielo",
+     "padre": ""
+    },
+    {
+     "nombre": "tejados",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__tejados",
+     "x": -40.0,
+     "y": 114.1796875,
+     "w": 479.8828125,
+     "h": 65.8203125,
+     "plano": "lejano",
+     "padre": ""
+    },
+    {
+     "nombre": "parroquia_lejana",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__parroquia_lejana",
+     "x": 223.4765625,
+     "y": 16.71875,
+     "w": 145.1171875,
+     "h": 165.234375,
+     "plano": "lejano",
+     "padre": ""
+    },
+    {
+     "nombre": "portales_izq",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__portales_izq",
+     "x": -40.0,
+     "y": 139.5703125,
+     "w": 191.015625,
+     "h": 100.9765625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "portales_der",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__portales_der",
+     "x": 329.7265625,
+     "y": 139.5703125,
+     "w": 110.15625,
+     "h": 100.9765625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "neveria_puerta",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__neveria_puerta",
+     "x": 361.171875,
+     "y": 184.6875,
+     "w": 35.7421875,
+     "h": 55.859375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "neveria_abierta",
+     "tipo": "parche",
+     "archivo": "Capas/n2_plaza__neveria_abierta",
+     "x": 361.171875,
+     "y": 184.6875,
+     "w": 35.7421875,
+     "h": 61.9140625,
+     "plano": "",
+     "padre": "neveria_puerta"
+    },
+    {
+     "nombre": "palma",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__palma",
+     "x": -8.5546875,
+     "y": 74.53125,
+     "w": 56.25,
+     "h": 166.015625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "cipres",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__cipres",
+     "x": 161.171875,
+     "y": 140.15625,
+     "w": 16.9921875,
+     "h": 100.390625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "jacaranda",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__jacaranda",
+     "x": 208.828125,
+     "y": 121.2109375,
+     "w": 88.28125,
+     "h": 120.1171875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "arbol_izq",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__arbol_izq",
+     "x": 65.078125,
+     "y": 109.8828125,
+     "w": 90.234375,
+     "h": 131.640625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "arbol_der",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__arbol_der",
+     "x": 281.484375,
+     "y": 107.9296875,
+     "w": 99.0234375,
+     "h": 133.59375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "papel_picado",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__papel_picado",
+     "x": 146.1328125,
+     "y": 138.59375,
+     "w": 188.4765625,
+     "h": 32.421875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "farola_fondo",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__farola_fondo",
+     "x": 347.890625,
+     "y": 172.578125,
+     "w": 11.71875,
+     "h": 67.96875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "monumento",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__monumento",
+     "x": 24.2578125,
+     "y": 37.03125,
+     "w": 132.8125,
+     "h": 272.265625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "kiosko_plaza",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__kiosko_plaza",
+     "x": 120.15625,
+     "y": 144.84375,
+     "w": 166.40625,
+     "h": 147.0703125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "kiosko_abierto",
+     "tipo": "parche",
+     "archivo": "Capas/n2_plaza__kiosko_abierto",
+     "x": 120.15625,
+     "y": 144.84375,
+     "w": 166.40625,
+     "h": 147.0703125,
+     "plano": "",
+     "padre": "kiosko_plaza"
+    },
+    {
+     "nombre": "puesto_nieves",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__puesto_nieves",
+     "x": 275.234375,
+     "y": 113.7890625,
+     "w": 110.546875,
+     "h": 173.2421875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "pj_chuy",
+     "tipo": "recorte",
+     "archivo": "Capas/n2_plaza__pj_chuy",
+     "x": 299.0625,
+     "y": 160.078125,
+     "w": 40.4296875,
+     "h": 81.4453125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "mostrador",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__mostrador",
+     "x": 275.234375,
+     "y": 203.4375,
+     "w": 85.9375,
+     "h": 59.375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "farola_der",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__farola_der",
+     "x": 259.4140625,
+     "y": 141.5234375,
+     "w": 18.5546875,
+     "h": 123.4375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "farola_izq",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__farola_izq",
+     "x": 6.2890625,
+     "y": 145.8203125,
+     "w": 19.140625,
+     "h": 123.046875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "banca",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__banca",
+     "x": 123.0859375,
+     "y": 253.4375,
+     "w": 42.3828125,
+     "h": 25.5859375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "palomas",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__palomas",
+     "x": 156.875,
+     "y": 285.078125,
+     "w": 111.5234375,
+     "h": 13.28125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "obj_ficha3",
+     "tipo": "recorte",
+     "archivo": "Capas/n2_plaza__obj_ficha3",
+     "x": 225.625,
+     "y": 260.46875,
+     "w": 25.5859375,
+     "h": 25.5859375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "obj_ficha6",
+     "tipo": "recorte",
+     "archivo": "Capas/n2_plaza__obj_ficha6",
+     "x": 170.9375,
+     "y": 272.7734375,
+     "w": 25.5859375,
+     "h": 25.390625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "rama",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__rama",
+     "x": -40.0,
+     "y": -20.0,
+     "w": 79.6875,
+     "h": 23.828125,
+     "plano": "frente",
+     "padre": ""
+    },
+    {
+     "nombre": "follaje_frente",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__follaje_frente",
+     "x": -40.0,
+     "y": -20.0,
+     "w": 103.7109375,
+     "h": 46.2890625,
+     "plano": "frente",
+     "padre": ""
+    },
+    {
+     "nombre": "farola_frente",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__farola_frente",
+     "x": 410.78125,
+     "y": 24.3359375,
+     "w": 29.1015625,
+     "h": 295.5078125,
+     "plano": "frente",
+     "padre": ""
+    },
+    {
+     "nombre": "seto",
+     "tipo": "elemento",
+     "archivo": "Capas/n2_plaza__seto",
+     "x": 371.328125,
+     "y": 278.2421875,
+     "w": 68.5546875,
+     "h": 41.6015625,
+     "plano": "frente",
+     "padre": ""
+    }
+   ],
+   "zonas": [
+    {
+     "nombre": "estatua",
+     "x": 30,
+     "y": 40,
+     "w": 86,
+     "h": 222
+    },
+    {
+     "nombre": "kiosko",
+     "x": 166,
+     "y": 194,
+     "w": 48,
+     "h": 36
+    },
+    {
+     "nombre": "neveria",
+     "x": 360,
+     "y": 184,
+     "w": 34,
+     "h": 56
+    },
+    {
+     "nombre": "chuy",
+     "x": 296,
+     "y": 150,
+     "w": 64,
+     "h": 104
+    }
+   ],
+   "planos": [
+    {
+     "nombre": "cielo",
+     "archivo": "",
+     "paralaje": -0.5,
+     "delante": false,
+     "x": 0,
+     "y": 0,
+     "w": 400,
+     "h": 300
+    },
+    {
+     "nombre": "lejano",
+     "archivo": "",
+     "paralaje": -0.4,
+     "delante": false,
+     "x": 0,
+     "y": 0,
+     "w": 400,
+     "h": 300
+    },
+    {
+     "nombre": "frente",
+     "archivo": "",
+     "paralaje": 0.65,
+     "delante": true,
+     "x": 0,
+     "y": 0,
+     "w": 400,
+     "h": 300
+    }
+   ]
+  },
+  {
+   "id": "n3_bodega",
+   "fondo": "Escenas/n3_bodega",
+   "capas": [
+    {
+     "nombre": "luz_ventana",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_bodega__luz_ventana",
+     "x": 174.0625,
+     "y": 70.4296875,
+     "w": 89.2578125,
+     "h": 172.265625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "puerta_pasillo_marco",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_bodega__puerta_pasillo_marco",
+     "x": -40.0,
+     "y": 78.4375,
+     "w": 95.703125,
+     "h": 199.609375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "estante_costales",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_bodega__estante_costales",
+     "x": 67.421875,
+     "y": 67.3046875,
+     "w": 75.5859375,
+     "h": 124.8046875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "estante_ollas",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_bodega__estante_ollas",
+     "x": 262.9296875,
+     "y": 79.4140625,
+     "w": 74.21875,
+     "h": 112.6953125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "cajas",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_bodega__cajas",
+     "x": 295.3515625,
+     "y": 194.84375,
+     "w": 43.75,
+     "h": 33.59375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "barril",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_bodega__barril",
+     "x": 329.7265625,
+     "y": 197.7734375,
+     "w": 35.7421875,
+     "h": 45.8984375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "mesa_postes",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_bodega__mesa_postes",
+     "x": 107.265625,
+     "y": 148.359375,
+     "w": 185.3515625,
+     "h": 96.2890625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "ollas_inicio",
+     "tipo": "recorte",
+     "archivo": "Capas/n3_bodega__ollas_inicio",
+     "x": 116.640625,
+     "y": 153.828125,
+     "w": 45.1171875,
+     "h": 56.0546875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "ollas_resueltas",
+     "tipo": "recorte",
+     "archivo": "Capas/n3_bodega__ollas_resueltas",
+     "x": 133.046875,
+     "y": 153.828125,
+     "w": 150.0,
+     "h": 129.8828125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "lampara",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_bodega__lampara",
+     "x": 129.921875,
+     "y": -15.1171875,
+     "w": 140.0390625,
+     "h": 140.0390625,
+     "plano": "",
+     "padre": ""
+    }
+   ],
+   "zonas": [
+    {
+     "nombre": "ollas",
+     "x": 110,
+     "y": 140,
+     "w": 180,
+     "h": 80
+    },
+    {
+     "nombre": "costales",
+     "x": 70,
+     "y": 66,
+     "w": 74,
+     "h": 126
+    },
+    {
+     "nombre": "puerta_pasillo",
+     "x": 5,
+     "y": 82,
+     "w": 51,
+     "h": 163
+    }
+   ],
+   "planos": []
+  },
+  {
+   "id": "n3_pasillo",
+   "fondo": "Escenas/n3_pasillo",
+   "capas": [
+    {
+     "nombre": "luz_tarde",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_pasillo__luz_tarde",
+     "x": 26.40625,
+     "y": 71.40625,
+     "w": 402.34375,
+     "h": 171.2890625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "armadura",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_pasillo__armadura",
+     "x": -24.1796875,
+     "y": -1.4453125,
+     "w": 448.2421875,
+     "h": 215.8203125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "bodega",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_pasillo__bodega",
+     "x": 168.59375,
+     "y": 119.84375,
+     "w": 63.28125,
+     "h": 86.328125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "bodega_abierta",
+     "tipo": "parche",
+     "archivo": "Capas/n3_pasillo__bodega_abierta",
+     "x": 168.59375,
+     "y": 119.84375,
+     "w": 63.28125,
+     "h": 86.328125,
+     "plano": "",
+     "padre": "bodega"
+    },
+    {
+     "nombre": "lamparas",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_pasillo__lamparas",
+     "x": 41.4453125,
+     "y": 21.796875,
+     "w": 317.1875,
+     "h": 79.4921875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "papel_picado",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_pasillo__papel_picado",
+     "x": -34.3359375,
+     "y": 30.9765625,
+     "w": 468.5546875,
+     "h": 36.328125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "puesto_dulces",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_pasillo__puesto_dulces",
+     "x": -1.9140625,
+     "y": 55.1953125,
+     "w": 157.03125,
+     "h": 144.921875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "pj_lupita",
+     "tipo": "recorte",
+     "archivo": "Capas/n3_pasillo__pj_lupita",
+     "x": 51.2109375,
+     "y": 146.9921875,
+     "w": 42.578125,
+     "h": 92.578125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "mostrador_dulces",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_pasillo__mostrador_dulces",
+     "x": 0.0390625,
+     "y": 188.3984375,
+     "w": 191.40625,
+     "h": 70.3125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "balanza_puesto",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_pasillo__balanza_puesto",
+     "x": 110.1953125,
+     "y": 160.46875,
+     "w": 39.84375,
+     "h": 37.6953125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "puesto_talavera",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_pasillo__puesto_talavera",
+     "x": 246.71875,
+     "y": 55.1953125,
+     "w": 154.8828125,
+     "h": 144.921875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "pj_alfarero",
+     "tipo": "recorte",
+     "archivo": "Capas/n3_pasillo__pj_alfarero",
+     "x": 310.0,
+     "y": 142.3046875,
+     "w": 42.7734375,
+     "h": 97.265625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "mostrador_talavera",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_pasillo__mostrador_talavera",
+     "x": 246.9140625,
+     "y": 173.5546875,
+     "w": 157.03125,
+     "h": 77.1484375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "pinata",
+     "tipo": "recorte",
+     "archivo": "Capas/n3_pasillo__pinata",
+     "x": 147.5,
+     "y": 21.9921875,
+     "w": 104.8828125,
+     "h": 104.1015625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "dulces",
+     "tipo": "recorte",
+     "archivo": "Capas/n3_pasillo__dulces",
+     "x": 144.765625,
+     "y": 21.796875,
+     "w": 117.578125,
+     "h": 277.5390625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "obj_cajita",
+     "tipo": "recorte",
+     "archivo": "Capas/n3_pasillo__obj_cajita",
+     "x": 198.28125,
+     "y": 257.5390625,
+     "w": 31.640625,
+     "h": 31.640625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "huacal",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_pasillo__huacal",
+     "x": -34.3359375,
+     "y": 259.4921875,
+     "w": 88.28125,
+     "h": 58.0078125,
+     "plano": "frente",
+     "padre": ""
+    }
+   ],
+   "zonas": [
+    {
+     "nombre": "lupita",
+     "x": 52,
+     "y": 148,
+     "w": 46,
+     "h": 50
+    },
+    {
+     "nombre": "balanza",
+     "x": 112,
+     "y": 160,
+     "w": 38,
+     "h": 38
+    },
+    {
+     "nombre": "pinata",
+     "x": 176,
+     "y": 28,
+     "w": 48,
+     "h": 84
+    },
+    {
+     "nombre": "talavera",
+     "x": 254,
+     "y": 92,
+     "w": 146,
+     "h": 156
+    },
+    {
+     "nombre": "bodega",
+     "x": 176,
+     "y": 130,
+     "w": 48,
+     "h": 74
+    }
+   ],
+   "planos": [
+    {
+     "nombre": "frente",
+     "archivo": "",
+     "paralaje": 0.6,
+     "delante": true,
+     "x": 0,
+     "y": 0,
+     "w": 400,
+     "h": 300
+    }
+   ]
+  },
+  {
+   "id": "n3_talavera",
+   "fondo": "Escenas/n3_talavera",
+   "capas": [
+    {
+     "nombre": "estante_izq",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_talavera__estante_izq",
+     "x": -4.0625,
+     "y": 46.015625,
+     "w": 108.59375,
+     "h": 151.171875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "estante_der",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_talavera__estante_der",
+     "x": 295.3515625,
+     "y": 46.015625,
+     "w": 108.59375,
+     "h": 151.171875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "letrero",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_talavera__letrero",
+     "x": 133.6328125,
+     "y": -3.3984375,
+     "w": 132.6171875,
+     "h": 43.75,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "tablero_canal",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_talavera__tablero_canal",
+     "x": 94.1796875,
+     "y": 43.0859375,
+     "w": 202.5390625,
+     "h": 157.03125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "canal_resuelto",
+     "tipo": "parche",
+     "archivo": "Capas/n3_talavera__canal_resuelto",
+     "x": 94.1796875,
+     "y": 43.0859375,
+     "w": 202.5390625,
+     "h": 157.03125,
+     "plano": "",
+     "padre": "tablero_canal"
+    },
+    {
+     "nombre": "pj_alfarero",
+     "tipo": "recorte",
+     "archivo": "Capas/n3_talavera__pj_alfarero",
+     "x": 305.5078125,
+     "y": 108.90625,
+     "w": 92.1875,
+     "h": 125.78125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "mostrador",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_talavera__mostrador",
+     "x": -8.1640625,
+     "y": 221.015625,
+     "w": 421.2890625,
+     "h": 82.2265625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "vasijas",
+     "tipo": "elemento",
+     "archivo": "Capas/n3_talavera__vasijas",
+     "x": 34.4140625,
+     "y": 189.9609375,
+     "w": 332.421875,
+     "h": 34.375,
+     "plano": "",
+     "padre": ""
+    }
+   ],
+   "zonas": [
+    {
+     "nombre": "azulejos",
+     "x": 124,
+     "y": 46,
+     "w": 152,
+     "h": 152
+    },
+    {
+     "nombre": "alfarero",
+     "x": 300,
+     "y": 40,
+     "w": 100,
+     "h": 180
+    }
+   ],
+   "planos": []
+  },
+  {
+   "id": "n4_biblioteca",
+   "fondo": "Escenas/n4_biblioteca",
+   "capas": [
+    {
+     "nombre": "ventana",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_biblioteca__ventana",
+     "x": 169.1796875,
+     "y": 46.015625,
+     "w": 61.5234375,
+     "h": 50.0,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "luz_ventana",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_biblioteca__luz_ventana",
+     "x": 159.4140625,
+     "y": 89.5703125,
+     "w": 107.2265625,
+     "h": 156.640625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "estante_izq",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_biblioteca__estante_izq",
+     "x": 60.78125,
+     "y": 53.2421875,
+     "w": 78.125,
+     "h": 155.078125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "estante_der",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_biblioteca__estante_der",
+     "x": 260.9765625,
+     "y": 53.2421875,
+     "w": 78.125,
+     "h": 155.078125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "librero_hidalgo",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_biblioteca__librero_hidalgo",
+     "x": 137.34375,
+     "y": 93.4765625,
+     "w": 124.8046875,
+     "h": 79.296875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "libros_ordenados",
+     "tipo": "parche",
+     "archivo": "Capas/n4_biblioteca__libros_ordenados",
+     "x": 137.34375,
+     "y": 93.4765625,
+     "w": 124.8046875,
+     "h": 79.296875,
+     "plano": "",
+     "padre": "librero_hidalgo"
+    },
+    {
+     "nombre": "puerta_sala_marco",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_biblioteca__puerta_sala_marco",
+     "x": -40.0,
+     "y": 78.4375,
+     "w": 95.703125,
+     "h": 199.609375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "caja_fuerte_mueble",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_biblioteca__caja_fuerte_mueble",
+     "x": 256.875,
+     "y": 194.84375,
+     "w": 70.1171875,
+     "h": 71.09375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "caja_abierta",
+     "tipo": "parche",
+     "archivo": "Capas/n4_biblioteca__caja_abierta",
+     "x": 236.7578125,
+     "y": 194.84375,
+     "w": 90.234375,
+     "h": 71.09375,
+     "plano": "",
+     "padre": "caja_fuerte_mueble"
+    },
+    {
+     "nombre": "mesa",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_biblioteca__mesa",
+     "x": 64.6875,
+     "y": 194.84375,
+     "w": 104.4921875,
+     "h": 84.1796875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "obj_vela",
+     "tipo": "recorte",
+     "archivo": "Capas/n4_biblioteca__obj_vela",
+     "x": 135.5859375,
+     "y": 205.0,
+     "w": 27.5390625,
+     "h": 27.5390625,
+     "plano": "",
+     "padre": ""
+    }
+   ],
+   "zonas": [
+    {
+     "nombre": "libros",
+     "x": 142,
+     "y": 96,
+     "w": 118,
+     "h": 76
+    },
+    {
+     "nombre": "caja_fuerte",
+     "x": 256,
+     "y": 194,
+     "w": 70,
+     "h": 72
+    },
+    {
+     "nombre": "puerta_sala",
+     "x": 5,
+     "y": 82,
+     "w": 51,
+     "h": 163
+    },
+    {
+     "nombre": "estantes",
+     "x": 64,
+     "y": 56,
+     "w": 74,
+     "h": 150
+    }
+   ],
+   "planos": []
+  },
+  {
+   "id": "n4_patio",
+   "fondo": "Escenas/n4_patio",
+   "capas": [
+    {
+     "nombre": "cielo",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_patio__cielo",
+     "x": -40.0,
+     "y": -20.0,
+     "w": 479.8828125,
+     "h": 339.84375,
+     "plano": "cielo",
+     "padre": ""
+    },
+    {
+     "nombre": "corredor",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_patio__corredor",
+     "x": 20.15625,
+     "y": 136.0546875,
+     "w": 375.390625,
+     "h": 102.5390625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "farol_corredor",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_patio__farol_corredor",
+     "x": 271.9140625,
+     "y": 106.7578125,
+     "w": 54.296875,
+     "h": 54.1015625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "morera",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_patio__morera",
+     "x": 196.71875,
+     "y": 42.3046875,
+     "w": 120.1171875,
+     "h": 199.8046875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "cofre_baul",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_patio__cofre_baul",
+     "x": 224.6484375,
+     "y": 195.8203125,
+     "w": 69.921875,
+     "h": 46.875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "cofre_abierto",
+     "tipo": "parche",
+     "archivo": "Capas/n4_patio__cofre_abierto",
+     "x": 224.6484375,
+     "y": 176.6796875,
+     "w": 69.921875,
+     "h": 66.015625,
+     "plano": "",
+     "padre": "cofre_baul"
+    },
+    {
+     "nombre": "mesa_mapa",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_patio__mesa_mapa",
+     "x": 54.7265625,
+     "y": 235.2734375,
+     "w": 148.828125,
+     "h": 60.9375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "macetas",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_patio__macetas",
+     "x": 0.4296875,
+     "y": 180.5859375,
+     "w": 371.09375,
+     "h": 59.9609375,
+     "plano": "",
+     "padre": ""
+    }
+   ],
+   "zonas": [
+    {
+     "nombre": "mapa",
+     "x": 60,
+     "y": 234,
+     "w": 142,
+     "h": 34
+    },
+    {
+     "nombre": "cofre",
+     "x": 222,
+     "y": 188,
+     "w": 74,
+     "h": 54
+    },
+    {
+     "nombre": "puerta_sala",
+     "x": 30,
+     "y": 140,
+     "w": 52,
+     "h": 96
+    },
+    {
+     "nombre": "morera",
+     "x": 170,
+     "y": 14,
+     "w": 170,
+     "h": 150
+    }
+   ],
+   "planos": [
+    {
+     "nombre": "cielo",
+     "archivo": "",
+     "paralaje": -0.5,
+     "delante": false,
+     "x": 0,
+     "y": 0,
+     "w": 400,
+     "h": 300
+    }
+   ]
+  },
+  {
+   "id": "n4_sala",
+   "fondo": "Escenas/n4_sala",
+   "capas": [
+    {
+     "nombre": "patio_afuera",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_sala__patio_afuera",
+     "x": -40.0,
+     "y": -20.0,
+     "w": 479.8828125,
+     "h": 339.84375,
+     "plano": "afuera",
+     "padre": ""
+    },
+    {
+     "nombre": "arco_patio",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_sala__arco_patio",
+     "x": 149.6484375,
+     "y": 69.453125,
+     "w": 110.546875,
+     "h": 185.3515625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "luz_atardecer",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_sala__luz_atardecer",
+     "x": 92.421875,
+     "y": 117.890625,
+     "w": 240.625,
+     "h": 185.3515625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "tapete",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_sala__tapete",
+     "x": 107.265625,
+     "y": 259.6875,
+     "w": 185.15625,
+     "h": 43.359375,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "macetas",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_sala__macetas",
+     "x": 128.5546875,
+     "y": 203.828125,
+     "w": 151.953125,
+     "h": 46.875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "vitrina",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_sala__vitrina",
+     "x": 28.359375,
+     "y": 59.296875,
+     "w": 76.171875,
+     "h": 152.9296875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "vitrina_restaurada",
+     "tipo": "parche",
+     "archivo": "Capas/n4_sala__vitrina_restaurada",
+     "x": 28.359375,
+     "y": 59.296875,
+     "w": 76.171875,
+     "h": 152.9296875,
+     "plano": "",
+     "padre": "vitrina"
+    },
+    {
+     "nombre": "escritorio",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_sala__escritorio",
+     "x": 18.203125,
+     "y": 186.640625,
+     "w": 132.8125,
+     "h": 64.0625,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "cajon_abierto",
+     "tipo": "parche",
+     "archivo": "Capas/n4_sala__cajon_abierto",
+     "x": 18.203125,
+     "y": 186.640625,
+     "w": 132.8125,
+     "h": 64.0625,
+     "plano": "",
+     "padre": "escritorio"
+    },
+    {
+     "nombre": "tintero",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_sala__tintero",
+     "x": 105.3125,
+     "y": 156.3671875,
+     "w": 25.390625,
+     "h": 34.5703125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "candelero_escritorio",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_sala__candelero_escritorio",
+     "x": 127.3828125,
+     "y": 173.359375,
+     "w": 12.5,
+     "h": 16.9921875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "puerta_biblioteca_marco",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_sala__puerta_biblioteca_marco",
+     "x": 279.140625,
+     "y": 113.7890625,
+     "w": 78.3203125,
+     "h": 144.921875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "farol_pared",
+     "tipo": "elemento",
+     "archivo": "Capas/n4_sala__farol_pared",
+     "x": 258.6328125,
+     "y": 51.2890625,
+     "w": 64.0625,
+     "h": 64.453125,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "obj_carta",
+     "tipo": "recorte",
+     "archivo": "Capas/n4_sala__obj_carta",
+     "x": 29.921875,
+     "y": 166.5234375,
+     "w": 36.5234375,
+     "h": 35.546875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "obj_cerillos",
+     "tipo": "recorte",
+     "archivo": "Capas/n4_sala__obj_cerillos",
+     "x": 112.5390625,
+     "y": 178.6328125,
+     "w": 17.1875,
+     "h": 12.3046875,
+     "plano": "",
+     "padre": ""
+    },
+    {
+     "nombre": "obj_rueda",
+     "tipo": "recorte",
+     "archivo": "Capas/n4_sala__obj_rueda",
+     "x": 69.765625,
+     "y": 195.8203125,
+     "w": 27.734375,
+     "h": 27.5390625,
+     "plano": "",
+     "padre": ""
+    }
+   ],
+   "zonas": [
+    {
+     "nombre": "vitrina",
+     "x": 34,
+     "y": 60,
+     "w": 70,
+     "h": 96
+    },
+    {
+     "nombre": "escritorio",
+     "x": 56,
+     "y": 196,
+     "w": 60,
+     "h": 28
+    },
+    {
+     "nombre": "patio",
+     "x": 160,
+     "y": 96,
+     "w": 90,
+     "h": 152
+    },
+    {
+     "nombre": "puerta_biblioteca",
+     "x": 286,
+     "y": 116,
+     "w": 68,
+     "h": 132
+    },
+    {
+     "nombre": "candelero",
+     "x": 126,
+     "y": 172,
+     "w": 16,
+     "h": 18
+    }
+   ],
+   "planos": [
+    {
+     "nombre": "afuera",
+     "archivo": "",
+     "paralaje": -0.45,
+     "delante": false,
+     "x": 0,
+     "y": 0,
+     "w": 400,
+     "h": 300
+    }
+   ]
+  }
+ ]
+}

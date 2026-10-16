@@ -1,0 +1,51 @@
+# Carpetas que Unity regenera
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Archivos de los editores de código
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Archivos que crean las pruebas de Unity
+/Assets/Resources/PerformanceTestRun*.json
+/Assets/Resources/PerformanceTestRun*.json.meta
+
+# Compilaciones
+*.apk
+*.aab
+*.unitypackage
+crashlytics-build.properties
+
+# Herramientas de una sola vez y generador de arte (no forman parte del juego)
+/Assets/Scripts/Editor/Migracion/
+/Assets/Scripts/Editor/Migracion.meta
+/FuentesArte/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Guías de la versión 6 (describen acertijos que ya cambiaron; las reemplazan README.md y ENTREGA_VERSION_NATIVA.md)
+/LEEME.md
+/Instrucciones_Leyendas_Unity.txt
+/Diseno_Niveles_y_Soluciones.txt
