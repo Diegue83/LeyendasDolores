@@ -1,0 +1,1482 @@
+fileFormatVersion: 2
+guid: 04d5990490e7dac45bae04642e55ca8d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2791507200361629121
+    second: contorno_campana_0
+  - first:
+      213: -2267918929798143952
+    second: contorno_campana_1
+  - first:
+      213: 7038168541897809891
+    second: contorno_campana_2
+  - first:
+      213: 6276660070098441923
+    second: contorno_campana_3
+  - first:
+      213: 6923467814704732727
+    second: contorno_campana_4
+  - first:
+      213: -8375934133670680910
+    second: contorno_campana_5
+  - first:
+      213: 590146960833608329
+    second: contorno_campana_6
+  - first:
+      213: 502974732825088161
+    second: contorno_campana_7
+  - first:
+      213: -1040605139138573127
+    second: contorno_campana_8
+  - first:
+      213: -2810379295646177715
+    second: contorno_campana_9
+  - first:
+      213: -5389873525242945960
+    second: contorno_campana_10
+  - first:
+      213: -1709582676874413254
+    second: contorno_campana_11
+  - first:
+      213: 5724929053743914143
+    second: contorno_campana_12
+  - first:
+      213: 6289867061742915284
+    second: contorno_campana_13
+  - first:
+      213: 5624347733496525828
+    second: contorno_campana_14
+  - first:
+      213: -7829202651259513898
+    second: contorno_campana_15
+  - first:
+      213: -7040410269422780456
+    second: contorno_campana_16
+  - first:
+      213: 4911834608328019053
+    second: contorno_campana_17
+  - first:
+      213: 4495616910847218750
+    second: contorno_campana_18
+  - first:
+      213: 4387719234148123670
+    second: contorno_campana_19
+  - first:
+      213: 7623322272371039858
+    second: contorno_campana_20
+  - first:
+      213: 44914696875085845
+    second: contorno_campana_21
+  - first:
+      213: 9017039300376737286
+    second: contorno_campana_22
+  - first:
+      213: 1015211419547157706
+    second: contorno_campana_23
+  - first:
+      213: 8307204407442822542
+    second: contorno_campana_24
+  - first:
+      213: 2035637376186364922
+    second: contorno_campana_25
+  - first:
+      213: 4392745201859464824
+    second: contorno_campana_26
+  - first:
+      213: 7015208583893010904
+    second: contorno_campana_27
+  - first:
+      213: -5050980249201548365
+    second: contorno_campana_28
+  - first:
+      213: 6379053387205093924
+    second: contorno_campana_29
+  - first:
+      213: 228760184499308196
+    second: contorno_campana_30
+  - first:
+      213: 2484647910340580406
+    second: contorno_campana_31
+  - first:
+      213: -9041013825985223366
+    second: contorno_campana_32
+  - first:
+      213: -4201068495904280011
+    second: contorno_campana_33
+  - first:
+      213: -7202755723981662862
+    second: contorno_campana_34
+  - first:
+      213: -1961758440098004352
+    second: contorno_campana_35
+  - first:
+      213: -3486688762531873072
+    second: contorno_campana_36
+  - first:
+      213: -594541188579777156
+    second: contorno_campana_37
+  - first:
+      213: -1586902521661629376
+    second: contorno_campana_38
+  - first:
+      213: -4606604035596450735
+    second: contorno_campana_39
+  - first:
+      213: -1740505492783521904
+    second: contorno_campana_40
+  - first:
+      213: 203808379937622570
+    second: contorno_campana_41
+  - first:
+      213: 7130886708698041427
+    second: contorno_campana_42
+  - first:
+      213: 575258463154931148
+    second: contorno_campana_43
+  - first:
+      213: 3083289360642063667
+    second: contorno_campana_44
+  - first:
+      213: 7165364221834484154
+    second: contorno_campana_45
+  - first:
+      213: 4612707322567030046
+    second: contorno_campana_46
+  - first:
+      213: -7727319756749109655
+    second: contorno_campana_47
+  - first:
+      213: -120562446408241391
+    second: contorno_campana_48
+  - first:
+      213: 5184266452532134543
+    second: contorno_campana_49
+  - first:
+      213: 2522727423408850017
+    second: contorno_campana_50
+  - first:
+      213: 1827605784130900676
+    second: contorno_campana_51
+  - first:
+      213: 5974185318025130176
+    second: contorno_campana_52
+  - first:
+      213: 2700950714373463641
+    second: contorno_campana_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: contorno_campana_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 372
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c50089320d6db620800000000000000
+      internalID: 2791507200361629121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 375
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0306ff1dfbbb680e0800000000000000
+      internalID: -2267918929798143952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 375
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efd521cff89ca160800000000000000
+      internalID: 7038168541897809891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 375
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6981e141d2b1750800000000000000
+      internalID: 6276660070098441923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_4
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 375
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a535d9b49151060800000000000000
+      internalID: 6923467814704732727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_5
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 375
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b66d747844b2cb80800000000000000
+      internalID: -8375934133670680910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_6
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 375
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a73cdb88f903800800000000000000
+      internalID: 590146960833608329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_7
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 375
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a05909cadceaf600800000000000000
+      internalID: 502974732825088161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 375
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc033aa3270f81f0800000000000000
+      internalID: -1040605139138573127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_9
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 371
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46a5eeabe68ff8d0800000000000000
+      internalID: -2810379295646177715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_10
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 345
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e9c97e5925335b0800000000000000
+      internalID: -5389873525242945960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_11
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 343
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b3db6fc975648e0800000000000000
+      internalID: -1709582676874413254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_12
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 327
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c18b474a8037f40800000000000000
+      internalID: 5724929053743914143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_13
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 327
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4decd9b74c81a4750800000000000000
+      internalID: 6289867061742915284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_14
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 327
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404755ce672bd0e40800000000000000
+      internalID: 5624347733496525828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_15
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 315
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d351296ba5195390800000000000000
+      internalID: -7829202651259513898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_16
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 287
+        width: 75
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dffa0269207b4e90800000000000000
+      internalID: -7040410269422780456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_17
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 327
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c8cd06d875a2440800000000000000
+      internalID: 4911834608328019053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_18
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 327
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e349949f2c3a36e30800000000000000
+      internalID: 4495616910847218750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_19
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 327
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6144c85756f44ec30800000000000000
+      internalID: 4387719234148123670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_20
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 287
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27edff4773b7bc960800000000000000
+      internalID: 7623322272371039858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_21
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 269
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5101f68cda19f9000800000000000000
+      internalID: 44914696875085845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 275
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60631b82875f22d70800000000000000
+      internalID: 9017039300376737286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 275
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac447024861c61e00800000000000000
+      internalID: 1015211419547157706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_24
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 275
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e855036256e194370800000000000000
+      internalID: 8307204407442822542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_25
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 262
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3b81b8869004c10800000000000000
+      internalID: 2035637376186364922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 245
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e82a1cc7a26fc30800000000000000
+      internalID: 4392745201859464824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_27
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 237
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9c634f9070b5160800000000000000
+      internalID: 7015208583893010904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_28
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 219
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3e3de793057e9b0800000000000000
+      internalID: -5050980249201548365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_29
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 209
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42aac9b0243f68850800000000000000
+      internalID: 6379053387205093924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_30
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 190
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a685dffc28bc2300800000000000000
+      internalID: 228760184499308196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_31
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 181
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63454c73c1e3b7220800000000000000
+      internalID: 2484647910340580406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_32
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 162
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3561cc93ddd78280800000000000000
+      internalID: -9041013825985223366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_33
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 153
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5327a80167ec2b5c0800000000000000
+      internalID: -4201068495904280011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_34
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 135
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2755924b4dbaa0c90800000000000000
+      internalID: -7202755723981662862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_35
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 126
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08285d2b71f66c4e0800000000000000
+      internalID: -1961758440098004352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_36
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 108
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0def0f23b0bcc9fc0800000000000000
+      internalID: -3486688762531873072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_37
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 99
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c752d5260f3cfb7f0800000000000000
+      internalID: -594541188579777156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_38
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 82
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cdf2770903af9e0800000000000000
+      internalID: -1586902521661629376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_39
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 74
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1548465590e0210c0800000000000000
+      internalID: -4606604035596450735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_40
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 58
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f9505d97b78d7e0800000000000000
+      internalID: -1740505492783521904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_41
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 43
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a0e6844a214d200800000000000000
+      internalID: 203808379937622570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_42
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 43
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c40853eaff5f260800000000000000
+      internalID: 7130886708698041427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_43
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 43
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5036e368abbf700800000000000000
+      internalID: 575258463154931148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_44
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 43
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33dbfc8665b0aca20800000000000000
+      internalID: 3083289360642063667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_45
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 43
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9dcb8cbcc707360800000000000000
+      internalID: 7165364221834484154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_46
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 30
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e157376eed0a30040800000000000000
+      internalID: 4612707322567030046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_47
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 26
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9668c115f9b03c490800000000000000
+      internalID: -7727319756749109655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_48
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 43
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fa590081da35ef0800000000000000
+      internalID: -120562446408241391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 43
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8207240fd632f740800000000000000
+      internalID: 5184266452532134543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_50
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 43
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164cb61c937820320800000000000000
+      internalID: 2522727423408850017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_51
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 4
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2529017c5fc5910800000000000000
+      internalID: 1827605784130900676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_52
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0fd37e4e198e250800000000000000
+      internalID: 5974185318025130176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contorno_campana_53
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e511e4d54bb7520800000000000000
+      internalID: 2700950714373463641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
